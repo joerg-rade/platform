@@ -1,0 +1,12 @@
+.This shows an issue with the summernotes module (not being editabel).
+
+. Start the app with program arguments
+-m domainapp.appdefn.DomainAppAppManifestWithFixtures
+
+. Login with sven/pass
+. Click 'SimpleObjects' -> 'List All'
+. Select one from the list and navigate to tab 'Other'
+
+See: platform/module-simple/src/main/java/domainapp.modules.simple.dom.SimpleObject
+
+

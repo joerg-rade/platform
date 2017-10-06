@@ -1,0 +1,3 @@
+domainapp\example\embeddedcamel\restful\mapping\ContentMappingServiceForSimpleObject.class
+domainapp\example\embeddedcamel\EmbeddedCamelModule.class
+domainapp\example\embeddedcamel\processor\AttachSimpleObjectDto.class

@@ -1,0 +1,4047 @@
+
+
+##############################################################################
+#
+# .pot file
+#
+# Translate this file to each required language and place in WEB-INF, eg:
+#
+#     /WEB-INF/translations-en_US.po
+#     /WEB-INF/translations-en.po
+#     /WEB-INF/translations-fr_FR.po
+#     /WEB-INF/translations-fr.po
+#     /WEB-INF/translations.po
+#
+# If the app uses TranslatableString (eg for internationalized validation
+# messages), or if the app calls the TranslationService directly, then ensure
+# that all text to be translated has been captured by running a full
+# integration test suite that exercises all relevant behaviour
+#
+##############################################################################
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-08-29 20:30:39+\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+
+#: org.incode.module.classification.dom.impl.category.Category#addChild(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.incode.module.classification.dom.impl.category.Category#ordinal
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#addChild(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#ordinal
+msgid "(Sorting) ordinal"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.metamodel.MetaModelServicesMenu#downloadMetaModel(java.lang.String)
+msgid ".csv file name"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_downloadGeocode#$$(java.lang.String)
+msgid ".json file name"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#downloadTranslations(java.lang.String)
+msgid ".pot file name"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.note.Note#abbreviated
+msgid "Abbreviated"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+#: org.isisaddons.module.security.dom.user.ApplicationUser#accountType
+msgid "Account Type"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.bookmark.BookmarkHolder_lookup#act()
+#: org.apache.isis.applib.services.dto.Dto_downloadXml#act()
+#: org.apache.isis.applib.services.dto.Dto_downloadXsd#act()
+#: org.apache.isis.applib.services.layout.Object_downloadLayoutXml#act()
+#: org.apache.isis.applib.services.layout.Object_rebuildMetamodel#act()
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_downloadJdoMetadata#act()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwner_findCommunications#act()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel_findCommunications#act()
+#: org.incode.module.communications.dom.mixins.Document_sendByEmail#act()
+#: org.incode.module.communications.dom.mixins.Document_sendByPost#act()
+#: org.isisaddons.module.audit.dom.Object_recentAuditEntries#act()
+msgid "Act"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.appfeat.ApplicationMemberType#ACTION
+#: org.isisaddons.module.command.dom.CommandJdo#targetAction
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#targetAction
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addAction(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+msgid "Action"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.InteractionType#ACTION_INVOCATION
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEventType#ACTION_INVOCATION
+msgid "Action Invocation"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#actionSemantics
+msgid "Action Semantics"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClass#actions
+msgid "Actions"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu#activeCommands()
+msgid "Active Commands"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLoggingServiceMenu#activeSessions()
+msgid "Active Sessions"
+msgstr ""
+
+
+#: org.isisaddons.module.audit.dom.AuditingServiceMenu
+#: org.isisaddons.module.command.dom.CommandServiceMenu
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishingServiceMenu
+#: org.isisaddons.module.sessionlogger.dom.SessionLoggingServiceMenu
+msgid "Activity"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.Category#addChild()
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#addChild()
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addUser()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#addChild()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#addUser()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#addRole()
+msgid "Add"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addAction()
+msgid "Add Action"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addClass()
+msgid "Add Class"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addCollection()
+msgid "Add Collection"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addPackage()
+msgid "Add Package"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addProperty()
+msgid "Add Property"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_lookupGeocode#$$(java.lang.String)
+msgid "Address"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#addressComponents
+msgid "Address Components"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_update#$$(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+msgid "Address Line 1"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_update#$$(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+msgid "Address Line 2"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_update#$$(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+msgid "Address Line 3"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_update#$$(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+msgid "Address Line 4"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#addressLine1
+msgid "Address Line1"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#addressLine2
+msgid "Address Line2"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#addressLine3
+msgid "Address Line3"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#addressLine4
+msgid "Address Line4"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#address1
+msgid "Address line 1"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#address2
+msgid "Address line 2"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#address3
+msgid "Address line 3"
+msgstr ""
+
+
+#: org.incode.module.alias.dom.impl.Alias#aliasTypeId
+msgid "Alias type"
+msgstr ""
+
+
+#: org.incode.module.alias.dom.impl.Alias#aliasedStr
+msgid "Aliased Str"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.Category#all
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#all
+msgid "All"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModels#allActions()
+msgid "All Actions"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModels#allClasses()
+msgid "All Classes"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModels#allCollections()
+msgid "All Collections"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModels#allPackages()
+msgid "All Packages"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermissionMenu#allPermissions()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermissions#allPermissions()
+msgid "All Permissions"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModels#allProperties()
+msgid "All Properties"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRoleMenu#allRoles()
+msgid "All Roles"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#allTenancies()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu#allTenancies()
+msgid "All Tenancies"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#allUsers()
+msgid "All Users"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#allow()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermissionRule#ALLOW
+msgid "Allow"
+msgstr ""
+
+
+#: org.incode.module.country.dom.impl.Country#alpha2Code
+msgid "Alpha 2 Code"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#applicable()
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#applicable()
+msgid "Applicable"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#atPath
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#atPath
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#atPath
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#atPath
+msgid "Application Level Path"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo
+msgid "Application Setting"
+msgstr ""
+
+
+#: org.incode.module.alias.dom.impl.Alias#atPath
+#: org.incode.module.classification.dom.impl.applicability.Applicability#atPath
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#applicable(java.lang.String,java.lang.String)
+#: org.incode.module.communications.dom.impl.comms.Communication#atPath
+#: org.incode.module.document.dom.impl.docs.Document#atPath
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#atPath
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#atPath
+msgid "Application tenancy"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#appliesTo
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#appliesTo
+msgid "Applies To"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.system.session.IsisSessionFactoryBuilder
+msgid "Are you sure?"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#arguments
+msgid "Arguments"
+msgstr ""
+
+
+#: org.incode.module.docfragment.dom.impl.DocFragment#atPath
+#: org.isisaddons.module.security.dom.user.ApplicationUser#atPath
+msgid "At Path"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#atPathCopy
+msgid "At Path Copy"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateAtPath(java.lang.String)
+msgid "AtPath"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#attachSupportingPdf()
+#: org.incode.module.document.dom.impl.docs.Document_attachSupportingPdf#exec()
+msgid "Attach supporting PDF"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#attachedDocument
+msgid "Attached Document"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#attachedTo
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#attachedTo
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#attachedTo
+msgid "Attached To"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#attachedToStr
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#attachedToStr
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#attachedToStr
+msgid "Attached To Str"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate$_applicable#$$(java.lang.String,org.incode.module.document.dom.services.ClassNameViewModel,org.incode.module.document.dom.services.ClassNameViewModel)
+msgid "Attachment Advisor"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability#attachmentAdvisorClassName
+msgid "Attachment Advisor Class Name"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract$ChangeType#AUDIT_ENTRY
+msgid "Audit Entry"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$ExecuteIn#BACKGROUND
+#: org.apache.isis.applib.services.command.Command$Executor#BACKGROUND
+msgid "Background"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.CommChannelRoleType#BCC
+msgid "Bcc"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#blob
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#blob
+#: org.incode.module.document.dom.impl.docs.DocumentSort$2#BLOB
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#blob
+msgid "Blob"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#blobBytes
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#blobBytes
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#blobBytes
+msgid "Blob Bytes"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingType#BOOLEAN
+msgid "Boolean"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentNature#BYTES
+msgid "Bytes"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.note.Note_changeDate#$$(org.joda.time.LocalDate,java.lang.String)
+msgid "Calendar"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.notablelink.NotableLink#calendarName
+#: org.incode.module.note.dom.impl.note.Note#calendarName
+msgid "Calendar Name"
+msgstr ""
+
+
+#: org.incode.module.docrendering.stringinterpolator.dom.spi.UrlDownloaderService$SimpleUsingGuava#canDownload()
+#: org.incode.module.docrendering.stringinterpolator.dom.spi.UrlDownloaderUsingNtlmCredentials#canDownload()
+msgid "Can Download"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.system.session.IsisSessionFactoryBuilder
+msgid "Cancel"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.classification.Classification#category
+msgid "Category"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel
+msgid "Cause"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#causedException
+msgid "Caused Exception"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#causedBy2
+msgid "Caused by"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.CommChannelRoleType#CC
+msgid "Cc"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#change()
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#change()
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#change()
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#change()
+#: org.incode.module.note.dom.impl.note.Note#changeDate()
+#: org.incode.module.note.dom.impl.note.Note#changeNotes()
+#: org.incode.module.note.dom.impl.note.Note_changeDate#$$()
+#: org.incode.module.note.dom.impl.note.Note_changeNotes#$$()
+msgid "Change"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability#changeAttachmentAdvisor()
+msgid "Change Attachment Advisor"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#changeContentRenderingStrategy()
+msgid "Change Content Rendering Strategy"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#changeDate()
+msgid "Change Date"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#changeEmailAddress()
+msgid "Change Email Address"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#changeNameRenderingStrategy()
+msgid "Change Name Rendering Strategy"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#changePhoneOrFaxNumber()
+msgid "Change Number"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#changePostalAddress()
+msgid "Change Postal Address"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#changeRenderer()
+msgid "Change Renderer"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability#changeRendererModelFactory()
+msgid "Change Renderer Model Factory"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#changeRole()
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#changeRole()
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#changeRole()
+msgid "Change Role"
+msgstr ""
+
+
+#: org.incode.module.docfragment.dom.impl.DocFragment#changeTemplateText()
+msgid "Change Template Text"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEventType#CHANGED_OBJECTS
+msgid "Changed Objects"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#changing()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermissionMode#CHANGING
+msgid "Changing"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel#changingPermission
+msgid "Changing Permission"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.CommChannelRole#channel
+msgid "Channel"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentNature#CHARACTERS
+msgid "Characters"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.Category#children
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#children
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#children
+msgid "Children"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#city
+msgid "City"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureType$2#CLASS
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#targetClass
+#: org.isisaddons.module.audit.dom.AuditEntry#targetClass
+#: org.isisaddons.module.command.dom.CommandJdo#targetClass
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#targetClass
+#: org.isisaddons.module.security.app.user.ApplicationUser_filterPermissions#$$(java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addAction(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addClass(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addCollection(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addProperty(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+msgid "Class"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClass#className
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#className
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#className
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#className
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#className
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#className
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#className
+msgid "Class Name"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.classification.Classification#classifiedStr
+msgid "Classified Str"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#clearGeocode()
+msgid "Clear Geocode"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#resetTranslationCache()
+msgid "Clear translation cache"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#clob
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#clob
+#: org.incode.module.document.dom.impl.docs.DocumentSort$3#CLOB
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#clob
+msgid "Clob"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#clobChars
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#clobChars
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#clobChars
+msgid "Clob Chars"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwner_recentCommunications#coll()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel_recentCommunications#coll()
+#: org.incode.module.communications.dom.mixins.Document_communicationAttachments#coll()
+#: org.incode.module.communications.dom.mixins.Document_communications#coll()
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract_attachedTo#coll()
+#: org.incode.module.document.dom.impl.docs.Document_supports#coll()
+msgid "Coll"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.appfeat.ApplicationMemberType#COLLECTION
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addCollection(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+msgid "Collection"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClass#collections
+msgid "Collections"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.HasTransactionId#command()
+#: org.apache.isis.applib.services.command.Command#command()
+#: org.apache.isis.applib.services.command.Command2#command()
+#: org.apache.isis.applib.services.command.Command3#command()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract$ChangeType#COMMAND
+#: org.isisaddons.module.audit.dom.AuditEntry#command()
+#: org.isisaddons.module.command.dom.CommandJdo
+#: org.isisaddons.module.command.dom.CommandJdo#command()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#command()
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#command()
+msgid "Command"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.CommChannelRole#communication
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#communication
+msgid "Communication"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.ownerlink.CommunicationChannelOwnerLink#communicationChannel
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLink#communicationChannel
+msgid "Communication Channel"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.ownerlink.CommunicationChannelOwnerLink#communicationChannelType
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLink#communicationChannelType
+msgid "Communication Channel Type"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutService$Style#COMPLETE
+#: org.isisaddons.module.command.dom.CommandJdo#complete
+msgid "Complete"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#completedAt
+msgid "Completed At"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.config.ConfigurationServiceMenu#configuration()
+msgid "Configuration"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.system.session.IsisSessionFactoryBuilder
+msgid "Confirm"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "Contact Details"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.note.Note#content
+msgid "Content"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#contentRenderingStrategy
+msgid "Content Rendering Strategy"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#contents
+msgid "Contents"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClass
+#: org.isisaddons.module.security.app.feature.ApplicationClass#contributed
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#contributed
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#contributed
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#contributed
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#contributed
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#contributed
+#: org.isisaddons.module.security.app.feature.ApplicationPackage
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#contributed
+msgid "Contributed"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.Communication#correspondents
+msgid "Correspondents"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#country
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_update#$$(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#country
+#: org.incode.module.country.dom.impl.State#country
+msgid "Country"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObjectMenu#create()
+#: domainapp.modules.simple.dom.SimpleObjectRepository#create()
+msgid "Create"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.Communication#createdAt
+#: org.incode.module.document.dom.impl.docs.Document#createdAt
+msgid "Created At"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutService$Style#CURRENT
+msgid "Current"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty
+msgid "Data Type"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#date
+#: org.incode.module.note.dom.impl.notablelink.NotableLink#date
+#: org.incode.module.note.dom.impl.note.Note#date
+#: org.incode.module.note.dom.impl.note.Note_changeDate#$$(org.joda.time.LocalDate,java.lang.String)
+msgid "Date"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.AccountType#DELEGATED
+msgid "Delegated"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObject#delete()
+#: org.incode.module.docfragment.dom.impl.DocFragment#delete()
+#: org.incode.module.document.dom.impl.applicability.ApplicabilityRepository#delete()
+#: org.incode.module.document.dom.impl.docs.Document#delete()
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#delete()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#delete()
+#: org.isisaddons.module.security.dom.role.ApplicationRole#delete()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#delete()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#delete()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#delete()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#delete()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#delete()
+msgid "Delete"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#derived
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#derived
+msgid "Derived"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#description
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#description
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#description
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#description
+#: org.incode.module.communications.dom.impl.comms.CommChannelRole#description
+#: org.isisaddons.module.security.dom.role.ApplicationRole#description
+#: org.isisaddons.module.security.dom.role.ApplicationRole#updateDescription(java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRoleMenu#newRole(java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newBoolean(java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newInt(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newLocalDate(java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newLong(java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newString(java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newBoolean(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newInt(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLocalDate(java.lang.String,java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLong(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newString(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#description
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateDescription(java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newBoolean(java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newInt(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newLocalDate(java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newLong(java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newString(java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#description
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateDescription(java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#description
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateDescription(java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newBoolean(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newInt(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLocalDate(java.lang.String,java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLong(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newString(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+msgid "Description"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.audit.dom.AuditEntry
+#: org.isisaddons.module.command.dom.CommandJdo
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#detail
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty
+msgid "Detail"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#atPath
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#atPath
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#atPath
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#atPath
+msgid "Determines those users for whom this object is available to view and/or modify."
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#lock()
+msgid "Disable"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserStatus#DISABLED
+msgid "Disabled"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#document
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#document
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#document
+msgid "Document"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#documentCreatedAt
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#documentCreatedAt
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#documentCreatedAt
+msgid "Document Created At"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#documentDate
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#documentDate
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#documentDate
+msgid "Document Date"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#documentState
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#documentState
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#documentState
+msgid "Document State"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability#documentTemplate
+msgid "Document Template"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.paperclips.Paperclip_changeRole#$$(java.lang.String)
+msgid "Document role"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.audit.dom.AuditEntry
+msgid "Domain Change"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability#domainClassName
+msgid "Domain Class Name"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.applicability.Applicability#domainType
+msgid "Domain Type"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#applicable(java.lang.String,java.lang.String)
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate$_applicable#$$(java.lang.String,org.incode.module.document.dom.services.ClassNameViewModel,org.incode.module.document.dom.services.ClassNameViewModel)
+msgid "Domain type"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#downloadExternalUrlAsBlob()
+#: org.incode.module.document.dom.impl.docs.Document#downloadExternalUrlAsClob()
+#: org.incode.module.document.dom.impl.docs.Document#downloadTextAsClob()
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#downloadTextAsClob()
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract_downloadTextAsClob#$$()
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#downloadTextAsClob()
+#: org.incode.module.document.dom.impl.docs.Document_downloadExternalUrlAsBlob#$$()
+#: org.incode.module.document.dom.impl.docs.Document_downloadExternalUrlAsClob#$$()
+msgid "Download"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#downloadGeocode()
+msgid "Download Geocode"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObject#downloadJdoMetadata()
+#: org.incode.module.alias.dom.impl.Alias#downloadJdoMetadata()
+#: org.incode.module.classification.dom.impl.applicability.Applicability#downloadJdoMetadata()
+#: org.incode.module.classification.dom.impl.category.Category#downloadJdoMetadata()
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#downloadJdoMetadata()
+#: org.incode.module.classification.dom.impl.classification.Classification#downloadJdoMetadata()
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#downloadJdoMetadata()
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#downloadJdoMetadata()
+#: org.incode.module.commchannel.dom.impl.ownerlink.CommunicationChannelOwnerLink#downloadJdoMetadata()
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#downloadJdoMetadata()
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#downloadJdoMetadata()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#downloadJdoMetadata()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLink#downloadJdoMetadata()
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#downloadJdoMetadata()
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#downloadJdoMetadata()
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#downloadJdoMetadata()
+#: org.incode.module.communications.dom.impl.comms.CommChannelRole#downloadJdoMetadata()
+#: org.incode.module.communications.dom.impl.comms.Communication#downloadJdoMetadata()
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#downloadJdoMetadata()
+#: org.incode.module.country.dom.impl.Country#downloadJdoMetadata()
+#: org.incode.module.country.dom.impl.State#downloadJdoMetadata()
+#: org.incode.module.docfragment.dom.impl.DocFragment#downloadJdoMetadata()
+#: org.incode.module.document.dom.impl.applicability.Applicability#downloadJdoMetadata()
+#: org.incode.module.document.dom.impl.docs.Document#downloadJdoMetadata()
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#downloadJdoMetadata()
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#downloadJdoMetadata()
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#downloadJdoMetadata()
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#downloadJdoMetadata()
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#downloadJdoMetadata()
+#: org.incode.module.document.dom.impl.types.DocumentType#downloadJdoMetadata()
+#: org.incode.module.note.dom.impl.notablelink.NotableLink#downloadJdoMetadata()
+#: org.incode.module.note.dom.impl.note.Note#downloadJdoMetadata()
+#: org.isisaddons.module.audit.dom.AuditEntry#downloadJdoMetadata()
+#: org.isisaddons.module.command.dom.CommandJdo#downloadJdoMetadata()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#downloadJdoMetadata()
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#downloadJdoMetadata()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#downloadJdoMetadata()
+#: org.isisaddons.module.security.dom.role.ApplicationRole#downloadJdoMetadata()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#downloadJdoMetadata()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#downloadJdoMetadata()
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#downloadJdoMetadata()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#downloadJdoMetadata()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#downloadJdoMetadata()
+#: org.isisaddons.module.tags.dom.Tag#downloadJdoMetadata()
+msgid "Download Jdo Metadata"
+msgstr ""
+
+
+#: [B#downloadLayoutXml()
+#: domainapp.modules.simple.dom.SimpleObject#downloadLayoutXml()
+#: java.io.Serializable#downloadLayoutXml()
+#: java.lang.Class#downloadLayoutXml()
+#: java.lang.Cloneable#downloadLayoutXml()
+#: java.lang.Comparable#downloadLayoutXml()
+#: java.lang.Iterable#downloadLayoutXml()
+#: java.lang.Object#downloadLayoutXml()
+#: java.lang.reflect.AnnotatedElement#downloadLayoutXml()
+#: java.lang.reflect.GenericDeclaration#downloadLayoutXml()
+#: java.lang.reflect.Type#downloadLayoutXml()
+#: java.util.Collection#downloadLayoutXml()
+#: java.util.List#downloadLayoutXml()
+#: java.util.Set#downloadLayoutXml()
+#: java.util.SortedSet#downloadLayoutXml()
+#: javax.jdo.listener.InstanceLifecycleListener#downloadLayoutXml()
+#: javax.jdo.listener.LoadLifecycleListener#downloadLayoutXml()
+#: javax.jdo.listener.StoreLifecycleListener#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractContainedObject#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractDomainObject#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractFactoryAndRepository#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractService#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractSubscriber#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractViewModel#downloadLayoutXml()
+#: org.apache.isis.applib.ViewModel#downloadLayoutXml()
+#: org.apache.isis.applib.conmap.ContentMappingService#downloadLayoutXml()
+#: org.apache.isis.applib.fixtures.InstallableFixture#downloadLayoutXml()
+#: org.apache.isis.applib.fixturescripts.FixtureResult#downloadLayoutXml()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#downloadLayoutXml()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#downloadLayoutXml()
+#: org.apache.isis.applib.services.HasTransactionId#downloadLayoutXml()
+#: org.apache.isis.applib.services.HasUsername#downloadLayoutXml()
+#: org.apache.isis.applib.services.WithTransactionScope#downloadLayoutXml()
+#: org.apache.isis.applib.services.appfeat.ApplicationFeatureRepository#downloadLayoutXml()
+#: org.apache.isis.applib.services.audit.AuditerService#downloadLayoutXml()
+#: org.apache.isis.applib.services.background.BackgroundCommandService#downloadLayoutXml()
+#: org.apache.isis.applib.services.background.BackgroundCommandService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.background.BackgroundService#downloadLayoutXml()
+#: org.apache.isis.applib.services.background.BackgroundService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.bookmark.BookmarkService#downloadLayoutXml()
+#: org.apache.isis.applib.services.bookmark.BookmarkService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService#downloadLayoutXml()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.command.Command#downloadLayoutXml()
+#: org.apache.isis.applib.services.command.Command2#downloadLayoutXml()
+#: org.apache.isis.applib.services.command.Command3#downloadLayoutXml()
+#: org.apache.isis.applib.services.command.spi.CommandService#downloadLayoutXml()
+#: org.apache.isis.applib.services.config.ConfigurationProperty#downloadLayoutXml()
+#: org.apache.isis.applib.services.config.ConfigurationService#downloadLayoutXml()
+#: org.apache.isis.applib.services.email.EmailService#downloadLayoutXml()
+#: org.apache.isis.applib.services.eventbus.EventBusService#downloadLayoutXml()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer#downloadLayoutXml()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer2#downloadLayoutXml()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite#downloadLayoutXml()
+#: org.apache.isis.applib.services.factory.FactoryService#downloadLayoutXml()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsSpecificationProvider#downloadLayoutXml()
+#: org.apache.isis.applib.services.grid.GridLoaderService#downloadLayoutXml()
+#: org.apache.isis.applib.services.grid.GridService#downloadLayoutXml()
+#: org.apache.isis.applib.services.grid.GridSystemService#downloadLayoutXml()
+#: org.apache.isis.applib.services.homepage.HomePageProviderService#downloadLayoutXml()
+#: org.apache.isis.applib.services.i18n.TranslationService#downloadLayoutXml()
+#: org.apache.isis.applib.services.jaxb.JaxbService#downloadLayoutXml()
+#: org.apache.isis.applib.services.jaxb.JaxbService$Simple#downloadLayoutXml()
+#: org.apache.isis.applib.services.jdosupport.IsisJdoSupport#downloadLayoutXml()
+#: org.apache.isis.applib.services.layout.LayoutService#downloadLayoutXml()
+#: org.apache.isis.applib.services.memento.MementoService#downloadLayoutXml()
+#: org.apache.isis.applib.services.message.MessageService#downloadLayoutXml()
+#: org.apache.isis.applib.services.metamodel.MetaModelService#downloadLayoutXml()
+#: org.apache.isis.applib.services.metamodel.MetaModelService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.metamodel.MetaModelService3#downloadLayoutXml()
+#: org.apache.isis.applib.services.metrics.MetricsService#downloadLayoutXml()
+#: org.apache.isis.applib.services.publish.PublisherService#downloadLayoutXml()
+#: org.apache.isis.applib.services.registry.ServiceRegistry#downloadLayoutXml()
+#: org.apache.isis.applib.services.registry.ServiceRegistry2#downloadLayoutXml()
+#: org.apache.isis.applib.services.repository.RepositoryService#downloadLayoutXml()
+#: org.apache.isis.applib.services.routing.RoutingService#downloadLayoutXml()
+#: org.apache.isis.applib.services.session.SessionLoggingService#downloadLayoutXml()
+#: org.apache.isis.applib.services.sessmgmt.SessionManagementService#downloadLayoutXml()
+#: org.apache.isis.applib.services.sudo.SudoService#downloadLayoutXml()
+#: org.apache.isis.applib.services.sudo.SudoService$Spi#downloadLayoutXml()
+#: org.apache.isis.applib.services.swagger.SwaggerService#downloadLayoutXml()
+#: org.apache.isis.applib.services.tablecol.TableColumnOrderService#downloadLayoutXml()
+#: org.apache.isis.applib.services.title.TitleService#downloadLayoutXml()
+#: org.apache.isis.applib.services.urlencoding.UrlEncodingService#downloadLayoutXml()
+#: org.apache.isis.applib.services.user.UserService#downloadLayoutXml()
+#: org.apache.isis.applib.services.userreg.EmailNotificationService#downloadLayoutXml()
+#: org.apache.isis.applib.services.userreg.UserRegistrationService#downloadLayoutXml()
+#: org.apache.isis.applib.services.wrapper.WrapperFactory#downloadLayoutXml()
+#: org.apache.isis.applib.services.xactn.TransactionService#downloadLayoutXml()
+#: org.apache.isis.applib.services.xactn.TransactionService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotService#downloadLayoutXml()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotServiceAbstract#downloadLayoutXml()
+#: org.apache.isis.core.commons.authentication.AuthenticationSessionProvider#downloadLayoutXml()
+#: org.apache.isis.core.commons.components.ApplicationScopedComponent#downloadLayoutXml()
+#: org.apache.isis.core.commons.components.Component#downloadLayoutXml()
+#: org.apache.isis.core.commons.config.IsisConfiguration#downloadLayoutXml()
+#: org.apache.isis.core.commons.config.IsisConfigurationDefault#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManager#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManagerBase#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.deployment.DeploymentCategoryProvider#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelRefiner#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelValidatorRefiner#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.ServicesInjectorAware#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeature#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.command.CommandDtoServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.configinternal.ConfigurationServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.grid.GridSystemServiceAbstract#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.ixn.InteractionDtoServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.persistsession.PersistenceSessionServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.publishing.PublishingServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.spec.FreeStandingList#downloadLayoutXml()
+#: org.apache.isis.core.runtime.authentication.AuthenticationManager#downloadLayoutXml()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManager#downloadLayoutXml()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManagerAbstract#downloadLayoutXml()
+#: org.apache.isis.core.runtime.persistence.FixturesInstalledFlag#downloadLayoutXml()
+#: org.apache.isis.core.runtime.services.eventbus.EventBusServiceDefault#downloadLayoutXml()
+#: org.apache.isis.core.runtime.system.transaction.TransactionalClosure#downloadLayoutXml()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#downloadLayoutXml()
+#: org.apache.isis.objectstore.jdo.applib.service.support.IsisJdoSupport#downloadLayoutXml()
+#: org.apache.isis.schema.cmd.v1.CommandDto#downloadLayoutXml()
+#: org.apache.isis.schema.cmd.v1.MemberDto#downloadLayoutXml()
+#: org.apache.isis.schema.common.v1.OidDto#downloadLayoutXml()
+#: org.apache.isis.schema.common.v1.OidsDto#downloadLayoutXml()
+#: org.incode.module.alias.dom.impl.Alias#downloadLayoutXml()
+#: org.incode.module.base.dom.with.WithNameGetter#downloadLayoutXml()
+#: org.incode.module.base.dom.with.WithReferenceGetter#downloadLayoutXml()
+#: org.incode.module.classification.dom.impl.applicability.Applicability#downloadLayoutXml()
+#: org.incode.module.classification.dom.impl.category.Category#downloadLayoutXml()
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#downloadLayoutXml()
+#: org.incode.module.classification.dom.impl.classification.Classification#downloadLayoutXml()
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#downloadLayoutXml()
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#downloadLayoutXml()
+#: org.incode.module.commchannel.dom.impl.ownerlink.CommunicationChannelOwnerLink#downloadLayoutXml()
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#downloadLayoutXml()
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwner#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLink#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.comms.CommChannelRole#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.comms.Communication#downloadLayoutXml()
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#downloadLayoutXml()
+#: org.incode.module.communications.dom.spi.CurrentUserEmailAddressProvider#downloadLayoutXml()
+#: org.incode.module.country.dom.impl.Country#downloadLayoutXml()
+#: org.incode.module.country.dom.impl.State#downloadLayoutXml()
+#: org.incode.module.docfragment.dom.impl.DocFragment#downloadLayoutXml()
+#: org.incode.module.docrendering.stringinterpolator.dom.spi.UrlDownloaderService#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.applicability.Applicability#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.docs.Document#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.paperclips.PaperclipRepository$SubtypeProvider#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.paperclips.PaperclipRepository$SubtypeProviderAbstract#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#downloadLayoutXml()
+#: org.incode.module.document.dom.impl.types.DocumentType#downloadLayoutXml()
+#: org.incode.module.document.dom.mixins.T_documents#downloadLayoutXml()
+#: org.incode.module.document.dom.services.ClassNameViewModel#downloadLayoutXml()
+#: org.incode.module.document.dom.spi.SupportingDocumentsEvaluator#downloadLayoutXml()
+#: org.incode.module.document.dom.spi.UrlDownloadService#downloadLayoutXml()
+#: org.incode.module.note.dom.impl.notablelink.NotableLink#downloadLayoutXml()
+#: org.incode.module.note.dom.impl.note.Note#downloadLayoutXml()
+#: org.isisaddons.module.audit.dom.AuditEntry#downloadLayoutXml()
+#: org.isisaddons.module.command.dom.CommandJdo#downloadLayoutXml()
+#: org.isisaddons.module.command.dom.T_backgroundCommands#downloadLayoutXml()
+#: org.isisaddons.module.poly.dom.PolymorphicAssociationLink#downloadLayoutXml()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#downloadLayoutXml()
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#downloadLayoutXml()
+#: org.isisaddons.module.publishmq.dom.servicespi.InteractionExecutionRepository#downloadLayoutXml()
+#: org.isisaddons.module.publishmq.dom.servicespi.PublishedObjectsRepository#downloadLayoutXml()
+#: org.isisaddons.module.security.app.feature.ApplicationClass#downloadLayoutXml()
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#downloadLayoutXml()
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#downloadLayoutXml()
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#downloadLayoutXml()
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#downloadLayoutXml()
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#downloadLayoutXml()
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#downloadLayoutXml()
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel#downloadLayoutXml()
+#: org.isisaddons.module.security.dom.password.PasswordEncryptionService#downloadLayoutXml()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#downloadLayoutXml()
+#: org.isisaddons.module.security.dom.permission.PermissionsEvaluationService#downloadLayoutXml()
+#: org.isisaddons.module.security.dom.permission.PermissionsEvaluationServiceAbstract#downloadLayoutXml()
+#: org.isisaddons.module.security.dom.role.ApplicationRole#downloadLayoutXml()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#downloadLayoutXml()
+#: org.isisaddons.module.security.dom.tenancy.HasAtPath#downloadLayoutXml()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#downloadLayoutXml()
+#: org.isisaddons.module.security.userreg.SecurityModuleAppUserRegistrationServiceAbstract#downloadLayoutXml()
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.ApplicationSetting#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.ApplicationSettingsService#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.ApplicationSettingsServiceRW#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.Setting#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.SettingAbstract#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.UserSetting#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.UserSettingsService#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.UserSettingsServiceRW#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#downloadLayoutXml()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#downloadLayoutXml()
+#: org.isisaddons.module.tags.dom.Tag#downloadLayoutXml()
+#: org.isisaddons.module.tags.dom.WithNameGetter#downloadLayoutXml()
+#: org.isisaddons.module.togglz.glue.spi.FeatureStateRepository#downloadLayoutXml()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.CalendarEventable#downloadLayoutXml()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.Calendarable#downloadLayoutXml()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.CalendarableDereferencingService#downloadLayoutXml()
+#: org.isisaddons.wicket.gmap3.cpt.applib.Locatable#downloadLayoutXml()
+#: org.isisaddons.wicket.gmap3.cpt.applib.LocationDereferencingService#downloadLayoutXml()
+msgid "Download Layout Xml"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutServiceMenu#downloadLayouts()
+msgid "Download Layouts (XML)"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.metamodel.MetaModelServicesMenu#downloadMetaModel()
+msgid "Download Meta Model (CSV)"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.Communication#downloadPdfForPosting()
+#: org.incode.module.communications.dom.impl.comms.Communication_downloadPdfForPosting#act()
+msgid "Download PDF for posting"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerServiceMenu#downloadSwaggerSchemaDefinition()
+msgid "Download Swagger Schema Definition"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#downloadTranslations()
+msgid "Download Translations"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#duration
+msgid "Duration"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#elementType
+msgid "Element Type"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateEmailAddress(java.lang.String)
+msgid "Email"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#emailAddress
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress_update#$$(java.lang.String)
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#emailAddress
+#: org.isisaddons.module.security.dom.user.ApplicationUser#emailAddress
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newLocalUser(java.lang.String,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean,java.lang.String)
+msgid "Email Address"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentSort$1#EMPTY
+msgid "Empty"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#unlock()
+msgid "Enable"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserStatus#ENABLED
+msgid "Enabled"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newDelegateUser(java.lang.String,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean)
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newLocalUser(java.lang.String,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean,java.lang.String)
+msgid "Enabled?"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#encryptedPassword
+msgid "Encrypted Password"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.mixins.Document_communications$SupportingDocumentsEvaluatorForCoverNotes#evaluate()
+#: org.incode.module.document.dom.spi.SupportingDocumentsEvaluator$Default#evaluate()
+msgid "Evaluate"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#eventType
+msgid "Event Type"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document_removeAttachment#exec()
+#: org.isisaddons.module.security.dom.user.HasUsername_open#exec()
+msgid "Exec"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#executeIn
+msgid "Execute In"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.persistsession.PersistenceSessionServiceInternalNoop#executeWithinTransaction()
+#: org.apache.isis.core.runtime.services.persistsession.PersistenceSessionServiceInternalDefault#executeWithinTransaction()
+msgid "Execute Within Transaction"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updatePassword(org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password)
+msgid "Existing password"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentSort$5#EXTERNAL_BLOB
+msgid "External Blob"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentSort$6#EXTERNAL_CLOB
+msgid "External Clob"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#externalUrl
+#: org.incode.module.document.dom.impl.docs.Document_movedToExternalUrl#$$(java.lang.String,java.lang.String)
+msgid "External URL"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#familyName
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateName(java.lang.String,java.lang.String,java.lang.String)
+msgid "Family Name"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateFaxNumber(java.lang.String)
+msgid "Fax"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#faxNumber
+msgid "Fax Number"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationPermission_feature
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel#feature
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission
+#: org.isisaddons.module.security.dom.role.ApplicationRole#removePermission(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureType,java.lang.String)
+msgid "Feature"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#featureFqn
+msgid "Feature Fqn"
+msgstr ""
+
+
+#: org.isisaddons.module.togglz.glue.service.FeatureToggleConsoleAccessor#featureToggles()
+msgid "Feature Toggles"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate_uploadBlob#$$(org.apache.isis.applib.value.Blob)
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate_uploadClob#$$(org.apache.isis.applib.value.Clob)
+msgid "File"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#fileSuffix
+msgid "File Suffix"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.dto.Dto_downloadXml#act(java.lang.String)
+#: org.apache.isis.applib.services.dto.Dto_downloadXsd#act(java.lang.String,org.apache.isis.applib.services.jaxb.JaxbService$IsisSchemas)
+#: org.apache.isis.applib.services.layout.Object_downloadLayoutXml#act(java.lang.String,org.apache.isis.applib.services.layout.LayoutService$Style)
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_downloadJdoMetadata#act(java.lang.String)
+#: org.incode.module.communications.dom.impl.comms.Communication_downloadPdfForPosting#act(java.lang.String)
+#: org.incode.module.document.dom.impl.docs.Document_attachSupportingPdf#exec(org.incode.module.document.dom.impl.types.DocumentType,org.apache.isis.applib.value.Blob,java.lang.String,java.lang.String)
+msgid "File name"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerServiceMenu#downloadSwaggerSchemaDefinition(java.lang.String,org.apache.isis.applib.services.swagger.SwaggerService$Visibility,org.apache.isis.applib.services.swagger.SwaggerService$Format)
+msgid "Filename"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#filterPermissions()
+msgid "Filter Permissions"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#find()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#find()
+msgid "Find Application Setting"
+msgstr ""
+
+
+#: org.isisaddons.module.audit.dom.AuditingServiceMenu#findAuditEntries()
+msgid "Find Audit Entries"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplateRepository#findByApplicableToAtPath()
+msgid "Find By Applicable To At Path"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObjectMenu#findByName()
+#: domainapp.modules.simple.dom.SimpleObjectRepository#findByName()
+msgid "Find By Name"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommandById()
+msgid "Find Command By Id"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommands()
+msgid "Find Commands"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#findCommunications()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwner#findCommunications()
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#findCommunications()
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#findCommunications()
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#findCommunications()
+msgid "Find Communications"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRoleRepository#findMatching()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyRepository#findMatching()
+#: org.isisaddons.module.security.dom.user.ApplicationUserRepository#findMatching()
+msgid "Find Matching"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermissionMenu#findOrphanedPermissions()
+msgid "Find Orphaned Permissions"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishingServiceMenu#findPublishedEvents()
+msgid "Find Published Events"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishingServiceMenu#findPublishedEventsByTransactionId()
+msgid "Find Published Events By Transaction Id"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEventRepository#findRecentByTarget()
+msgid "Find Recent By Target"
+msgstr ""
+
+
+#: org.isisaddons.module.audit.dom.AuditingServiceRepository#findRecentByTargetAndPropertyId()
+msgid "Find Recent By Target And Property Id"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRoleMenu#findRoles()
+msgid "Find Roles"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLoggingServiceMenu#findSessions()
+msgid "Find Sessions"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu#findTenancies()
+msgid "Find Tenancies"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#findTenancyByName()
+msgid "Find Tenancy By Name"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#findTenancyByPath()
+msgid "Find Tenancy By Path"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.UserSettingMenu#find()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#find()
+msgid "Find User Setting"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#findUsers()
+msgid "Find Users"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureResult#fixtureScriptClassName
+msgid "Fixture script"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$ExecuteIn#FOREGROUND
+msgid "Foreground"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#formattedAddress
+msgid "Formatted Address"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScript#friendlyName
+msgid "Friendly Name"
+msgstr ""
+
+
+#: org.isisaddons.module.audit.dom.AuditingServiceMenu#findAuditEntries(org.joda.time.LocalDate,org.joda.time.LocalDate)
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommands(org.joda.time.LocalDate,org.joda.time.LocalDate)
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishingServiceMenu#findPublishedEvents(org.joda.time.LocalDate,org.joda.time.LocalDate)
+#: org.isisaddons.module.sessionlogger.dom.SessionLoggingServiceMenu#findSessions(java.lang.String,org.joda.time.LocalDate,org.joda.time.LocalDate)
+msgid "From"
+msgstr ""
+
+
+#: org.incode.module.document.dom.services.ClassNameViewModel#fullyQualifiedClassName
+msgid "Fully Qualified Class Name"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.Category#fullyQualifiedName
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#fullyQualifiedName
+msgid "Fully Qualified Name"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.Category#fullyQualifiedOrdinal
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#fullyQualifiedOrdinal
+msgid "Fully Qualified Ordinal"
+msgstr ""
+
+
+#: org.isisaddons.module.tags.dom.Tag
+msgid "General"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#geocodeApiResponseAsJson
+msgid "Geocode Api Response As Json"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#givenName
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateName(java.lang.String,java.lang.String,java.lang.String)
+msgid "Given Name"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.hsqldb.HsqlDbManagerMenu#hsqlDbManager()
+msgid "HSQL DB Manager"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#hasPassword
+msgid "Has Password"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusIdLong#prop()
+#: org.apache.isis.schema.common.v1.OidDto#id
+#: org.incode.module.base.services.calendar.CalendarService#id
+#: org.incode.module.commchannel.dom.api.GeocodingService#id
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannelRepository#id
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddressRepository#id
+#: org.incode.module.commchannel.dom.impl.gmap3.LocationDereferencingServiceForCommunicationChannels#id
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumberRepository#id
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddressRepository#id
+#: org.incode.module.commchannel.dom.impl.purpose.CommunicationChannelPurposeService#id
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLinkRepository#id
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelRepository#id
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddressRepository#id
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumberRepository#id
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddressRepository#id
+#: org.incode.module.document.dom.impl.applicability.Applicability$CssClassSubscriber#id
+#: org.incode.module.document.dom.impl.applicability.Applicability$IconSubscriber#id
+#: org.incode.module.document.dom.impl.applicability.Applicability$TitleSubscriber#id
+#: org.incode.module.document.dom.impl.applicability.ApplicabilityRepository#id
+#: org.incode.module.document.dom.impl.docs.Document$CssClassSubscriber#id
+#: org.incode.module.document.dom.impl.docs.Document$IconSubscriber#id
+#: org.incode.module.document.dom.impl.docs.Document$TitleSubscriber#id
+#: org.incode.module.document.dom.impl.docs.DocumentRepository#id
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate$CssClassSubscriber#id
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate$IconSubscriber#id
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate$TitleSubscriber#id
+#: org.incode.module.document.dom.impl.docs.DocumentTemplateRepository#id
+#: org.incode.module.document.dom.impl.paperclips.Paperclip$CssClassSubscriber#id
+#: org.incode.module.document.dom.impl.paperclips.Paperclip$IconSubscriber#id
+#: org.incode.module.document.dom.impl.paperclips.PaperclipRepository#id
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy$CssClassSubscriber#id
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy$IconSubscriber#id
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy$TitleSubscriber#id
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategyRepository#id
+#: org.incode.module.document.dom.impl.types.DocumentType$CssClassSubscriber#id
+#: org.incode.module.document.dom.impl.types.DocumentType$IconSubscriber#id
+#: org.incode.module.document.dom.impl.types.DocumentType$TitleSubscriber#id
+#: org.incode.module.document.dom.impl.types.DocumentTypeRepository#id
+#: org.incode.module.document.dom.services.ClassService#id
+#: org.incode.module.document.dom.spi.UrlDownloadService$Default#id
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessageService#id()
+#: org.isisaddons.module.security.app.feature.ApplicationClass
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel
+#: org.isisaddons.module.security.app.feature.ApplicationPackage
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+#: org.isisaddons.module.tags.dom.Tag#id
+msgid "Id"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#IDEMPOTENT
+msgid "Idempotent"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#IDEMPOTENT_ARE_YOU_SURE
+msgid "Idempotent Are You Sure"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.audit.dom.AuditEntry
+#: org.isisaddons.module.command.dom.CommandJdo
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry
+msgid "Identifiers"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$Persistence#IF_HINTED
+msgid "If Hinted"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.jaxb.JaxbService$IsisSchemas#IGNORE
+msgid "Ignore"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.jaxb.JaxbService$IsisSchemas#INCLUDE
+msgid "Include"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newDelegateUser(java.lang.String,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean)
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newLocalUser(java.lang.String,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean,java.lang.String)
+msgid "Initial role"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#inputNature
+msgid "Input Nature"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingType#INT
+msgid "Int"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.MemberDto#interactionType
+msgid "Interaction Type"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Format#JSON
+msgid "Json"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.config.ConfigurationProperty#key
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#find(java.lang.String)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newBoolean(java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newInt(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newLocalDate(java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newLong(java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newString(java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#find(java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newBoolean(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newInt(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLocalDate(java.lang.String,java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLong(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newString(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#key
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#find(java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newBoolean(java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newInt(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newLocalDate(java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newLong(java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newString(java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#key
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#key
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#find(java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newBoolean(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newInt(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLocalDate(java.lang.String,java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLong(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newString(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.tags.dom.Tag#key
+msgid "Key"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#knownAs
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateName(java.lang.String,java.lang.String,java.lang.String)
+msgid "Known As"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#latLng
+msgid "Lat Lng"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#legal
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#legal
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#legal
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#legal
+msgid "Legal"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObjectMenu#listAll()
+#: domainapp.modules.simple.dom.SimpleObjectRepository#listAll()
+#: org.incode.module.docfragment.dom.impl.DocFragmentRepository#listAll()
+msgid "List All"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#listAll()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#listAll()
+msgid "List All Application Settings"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.UserSettingMenu#listAllFor()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#listAllFor()
+msgid "List All Settings For User"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.UserSettingMenu#listAll()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#listAll()
+msgid "List All User Settings"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.AccountType#LOCAL
+msgid "Local"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingType#LOCAL_DATE
+msgid "Local Date"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessageService#log()
+msgid "Log"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.MemberDto#logicalMemberIdentifier
+msgid "Logical Member Identifier"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry
+msgid "Login"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#loginTimestamp
+msgid "Login Timestamp"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry
+msgid "Logout"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#logoutTimestamp
+msgid "Logout Timestamp"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingType#LONG
+msgid "Long"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.user.MeService#me()
+msgid "Looks up ApplicationUser entity corresponding to your user account"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#lookupGeocode()
+msgid "Lookup Geocode"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_update#$$(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+msgid "Lookup geocode"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.CommandDto#majorVersion
+msgid "Major Version"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#maxLength
+msgid "Max Length"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.user.MeService#me()
+msgid "Me"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureType$3#MEMBER
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#targetAction
+#: org.apache.isis.schema.cmd.v1.CommandDto#member
+#: org.isisaddons.module.audit.dom.AuditEntry#targetAction
+msgid "Member"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.MemberDto#memberIdentifier
+#: org.isisaddons.module.audit.dom.AuditEntry#memberIdentifier
+#: org.isisaddons.module.command.dom.CommandJdo#memberIdentifier
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#memberIdentifier
+msgid "Member Identifier"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClass#memberName
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#memberName
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#memberName
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#memberName
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#memberName
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#memberName
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#memberName
+msgid "Member Name"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#memento
+msgid "Memento"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#message
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#messageOnForm
+msgid "Message"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusIdLong
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionLong
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionTimestamp
+#: org.isisaddons.module.audit.dom.AuditEntry
+#: org.isisaddons.module.audit.dom.Object_recentAuditEntries
+#: org.isisaddons.module.command.dom.CommandJdo
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage
+msgid "Metadata"
+msgstr ""
+
+
+#: org.isisaddons.module.audit.dom.AuditEntry#metadataRegionDummyProperty
+#: org.isisaddons.module.command.dom.CommandJdo#metadataRegionDummyProperty
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#metadataRegionDummyProperty
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#metadataRegionDummyProperty
+msgid "Metadata Region Dummy Property"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#mimeType
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#mimeType
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#mimeType
+msgid "Mime Type"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutService$Style#MINIMAL
+msgid "Minimal"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.CommandDto#minorVersion
+msgid "Minor Version"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#mode
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addAction(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addClass(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addCollection(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addPackage(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addProperty(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+msgid "Mode"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#movedToExternalUrl()
+#: org.incode.module.document.dom.impl.docs.Document_movedToExternalUrl#$$()
+msgid "Moved to External URL"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObject#name
+#: domainapp.modules.simple.dom.SimpleObjectMenu#create(java.lang.String)
+#: domainapp.modules.simple.dom.SimpleObjectMenu#findByName(java.lang.String)
+#: org.incode.module.classification.dom.impl.category.Category#addChild(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.incode.module.classification.dom.impl.category.Category#name
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#addChild(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#name
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#name
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#name
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#name
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#name
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#name
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#name
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#name
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#name
+#: org.incode.module.country.dom.impl.Country#name
+#: org.incode.module.country.dom.impl.State#name
+#: org.incode.module.docfragment.dom.impl.DocFragment#name
+#: org.incode.module.document.dom.impl.docs.Document#name
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#name
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#name
+#: org.incode.module.document.dom.impl.docs.Document_movedToExternalUrl#$$(java.lang.String,java.lang.String)
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#name
+#: org.incode.module.document.dom.impl.types.DocumentType#name
+#: org.isisaddons.module.security.dom.role.ApplicationRole#name
+#: org.isisaddons.module.security.dom.role.ApplicationRole#updateName(java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRoleMenu#newRole(java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#findTenancyByName(java.lang.String)
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#newTenancy(java.lang.String,java.lang.String,org.isisaddons.module.security.dom.tenancy.ApplicationTenancy)
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#name
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#updateName(java.lang.String)
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu#newTenancy(java.lang.String,java.lang.String,org.isisaddons.module.security.dom.tenancy.ApplicationTenancy)
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+#: org.isisaddons.module.security.dom.user.ApplicationUser#name
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newDelegateUser(java.lang.String,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean)
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newLocalUser(java.lang.String,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean,java.lang.String)
+msgid "Name"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#nameRenderingStrategy
+msgid "Name Rendering Strategy"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#nameText
+msgid "Name Text"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureFactory#newApplicationFeature()
+msgid "New Application Feature"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newBoolean()
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newBoolean()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newBoolean()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newBoolean()
+msgid "New Boolean"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newDelegateUser()
+msgid "New Delegate User"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newInt()
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newInt()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newInt()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newInt()
+msgid "New Int"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newLocalDate()
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLocalDate()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newLocalDate()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLocalDate()
+msgid "New Local Date"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newLocalUser()
+msgid "New Local User"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserRepository#newLocalUserBasedOn()
+msgid "New Local User Based On"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newLong()
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLong()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newLong()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLong()
+msgid "New Long"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRoleMenu#newRole()
+msgid "New Role"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newString()
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newString()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newString()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newString()
+msgid "New String"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#newTenancy()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu#newTenancy()
+msgid "New Tenancy"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate_changeDate#$$(org.joda.time.LocalDate)
+msgid "New date"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#resetPassword(org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password)
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updatePassword(org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password)
+msgid "New password"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#next()
+#: org.isisaddons.module.settings.dom.ApplicationSetting#next()
+#: org.isisaddons.module.settings.dom.UserSetting#next()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#next()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#next()
+msgid "Next"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#NON_IDEMPOTENT
+msgid "Non Idempotent"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#NON_IDEMPOTENT_ARE_YOU_SURE
+msgid "Non Idempotent Are You Sure"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutService$Style#NORMALIZED
+msgid "Normalized"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#notApplicable()
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#notApplicable()
+msgid "Not Applicable"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$Persistence#NOT_PERSISTED
+msgid "Not Persisted"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentState$1#NOT_RENDERED
+msgid "Not Rendered"
+msgstr ""
+
+
+#: org.incode.module.document.dom.spi.SupportingDocumentsEvaluator$Evaluation#NOT_SUPPORTING
+msgid "Not Supporting"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.note.Note#notable
+msgid "Notable"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.notablelink.NotableLink#notableStr
+msgid "Notable Str"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.notablelink.NotableLink#note
+msgid "Note"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObject#notes
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#notes
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#notes
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#notes
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#notes
+#: org.incode.module.note.dom.impl.note.Note_changeNotes#$$(java.lang.String)
+msgid "Notes"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#targetStr
+#: org.isisaddons.module.audit.dom.AuditEntry#targetStr
+#: org.isisaddons.module.command.dom.CommandJdo#targetStr
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#targetStr
+#: org.isisaddons.module.tags.dom.Tag#taggedObject
+msgid "Object"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.OidDto#objectIdentifier
+msgid "Object Identifier"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.OidDto#objectState
+msgid "Object State"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.OidDto#objectType
+#: org.incode.module.docfragment.dom.impl.DocFragment#objectType
+msgid "Object Type"
+msgstr ""
+
+
+#: org.isisaddons.module.audit.dom.Object_recentAuditEntries#act(java.lang.String)
+msgid "Object property"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.OidsDto#oid
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#oid
+msgid "Oid"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.HasUsername#open()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#openTargetObject()
+#: org.isisaddons.module.audit.dom.AuditEntry#open()
+#: org.isisaddons.module.audit.dom.AuditEntry#openTargetObject()
+#: org.isisaddons.module.command.dom.CommandJdo#open()
+#: org.isisaddons.module.command.dom.CommandJdo#openResultObject()
+#: org.isisaddons.module.command.dom.CommandJdo#openTargetObject()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#open()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#openTargetObject()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#open()
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#open()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#open()
+msgid "Open"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.command.Command$Executor#OTHER
+msgid "Other"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#outputNature
+msgid "Output Nature"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#owner
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#owner
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#owner
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#owner
+msgid "Owner"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLink#ownerIdentifier
+msgid "Owner Identifier"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLink#ownerObjectType
+msgid "Owner Object Type"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.ownerlink.CommunicationChannelOwnerLink#ownerStr
+msgid "Owner Str"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureType$1#PACKAGE
+#: org.isisaddons.module.security.app.user.ApplicationUser_filterPermissions#$$(java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addAction(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addClass(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addCollection(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addPackage(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addProperty(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+msgid "Package"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClass#packageName
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#packageName
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#packageName
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#packageName
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#packageName
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#packageName
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#packageName
+msgid "Package Name"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#runFixtureScript(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScript(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScriptWithAutoComplete(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+msgid "Parameters"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.Category#parent
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#parent
+#: org.isisaddons.module.command.dom.CommandJdo#parent
+#: org.isisaddons.module.security.app.feature.ApplicationClass
+#: org.isisaddons.module.security.app.feature.ApplicationClass#parent
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#parent
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#parent
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#parent
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#parent
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#parent
+#: org.isisaddons.module.security.app.feature.ApplicationPackage
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#parent
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#newTenancy(java.lang.String,java.lang.String,org.isisaddons.module.security.dom.tenancy.ApplicationTenancy)
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#parent
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu#newTenancy(java.lang.String,java.lang.String,org.isisaddons.module.security.dom.tenancy.ApplicationTenancy)
+msgid "Parent"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu#findTenancies(java.lang.String)
+msgid "Partial Name Or Path"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newLocalUser(java.lang.String,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean,java.lang.String)
+msgid "Password"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#findTenancyByPath(java.lang.String)
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancies#newTenancy(java.lang.String,java.lang.String,org.isisaddons.module.security.dom.tenancy.ApplicationTenancy)
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#path
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu#newTenancy(java.lang.String,java.lang.String,org.isisaddons.module.security.dom.tenancy.ApplicationTenancy)
+msgid "Path"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.CommunicationState#PENDING
+msgid "Pending"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel
+msgid "Permission"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClass#permissions
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#permissions
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#permissions
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#permissions
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#permissions
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#permissions
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#permissions
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission
+#: org.isisaddons.module.security.dom.role.ApplicationRole
+#: org.isisaddons.module.security.dom.role.ApplicationRole#permissions
+msgid "Permissions"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$Persistence#PERSISTED
+msgid "Persisted"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.BookmarkObjectState#PERSISTENT
+msgid "Persistent"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updatePhoneNumber(java.lang.String)
+msgid "Phone"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#phoneNumber
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber_update#$$(org.incode.module.commchannel.dom.impl.type.CommunicationChannelType,java.lang.String)
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#phoneNumber
+#: org.isisaddons.module.security.dom.user.ApplicationUser#phoneNumber
+msgid "Phone Number"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#placeId
+msgid "Place Id"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#postValue
+#: org.isisaddons.module.audit.dom.AuditEntry#postValue
+#: org.isisaddons.module.command.dom.CommandJdo#postValue
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#postValue
+msgid "Post Value"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#postalCode
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress_update#$$(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#postalCode
+msgid "Postal Code"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#preValue
+#: org.isisaddons.module.audit.dom.AuditEntry#preValue
+#: org.isisaddons.module.command.dom.CommandJdo#preValue
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#preValue
+msgid "Pre Value"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.CommChannelRoleType#PREPARED_BY
+msgid "Prepared By"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#previewOnly
+msgid "Preview Only"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate_updatePreviewOnly#$$(boolean)
+msgid "Preview only?"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#previewsToUrl
+msgid "Previews To Url"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#previous()
+#: org.isisaddons.module.settings.dom.ApplicationSetting#previous()
+#: org.isisaddons.module.settings.dom.UserSetting#previous()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#previous()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#previous()
+msgid "Previous"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.Communication#primaryDocument
+msgid "Primary Document"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Visibility#PRIVATE
+msgid "Private"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Visibility#PRIVATE_WITH_PROTOTYPING
+msgid "Private With Prototyping"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.bookmark.BookmarkHolder_object#prop()
+#: org.incode.module.communications.dom.impl.covernotes.Document_coverNoteFor#prop()
+msgid "Prop"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClass#properties
+msgid "Properties"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.appfeat.ApplicationMemberType#PROPERTY
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addProperty(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+msgid "Property"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.InteractionType#PROPERTY_EDIT
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEventType#PROPERTY_EDIT
+msgid "Property Edit"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#propertyId
+#: org.isisaddons.module.audit.dom.AuditEntry#propertyId
+#: org.isisaddons.module.command.dom.CommandJdo#propertyId
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#propertyId
+msgid "Property Id"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault
+#: org.apache.isis.applib.services.hsqldb.HsqlDbManagerMenu
+#: org.apache.isis.applib.services.layout.LayoutServiceMenu
+#: org.apache.isis.applib.services.metamodel.MetaModelServicesMenu
+#: org.apache.isis.applib.services.swagger.SwaggerServiceMenu
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu
+msgid "Prototyping"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Visibility#PUBLIC
+msgid "Public"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.HasTransactionId#publishedEvent()
+#: org.apache.isis.applib.services.command.Command#publishedEvent()
+#: org.apache.isis.applib.services.command.Command2#publishedEvent()
+#: org.apache.isis.applib.services.command.Command3#publishedEvent()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract$ChangeType#PUBLISHED_EVENT
+#: org.isisaddons.module.audit.dom.AuditEntry#publishedEvent()
+#: org.isisaddons.module.command.dom.CommandJdo#publishedEvent()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#publishedEvent()
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#publishedEvent()
+msgid "Published Event"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract$ChangeType#PUBLISHED_INTERACTION
+msgid "Published Interaction"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#purpose
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#purpose
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#purpose
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#purpose
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#purpose
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#purpose
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#purpose
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#purpose
+msgid "Purpose"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updatePassword(org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password)
+msgid "Re-enter password"
+msgstr ""
+
+
+#: [B#rebuildMetamodel()
+#: domainapp.modules.simple.dom.SimpleObject#rebuildMetamodel()
+#: java.io.Serializable#rebuildMetamodel()
+#: java.lang.Class#rebuildMetamodel()
+#: java.lang.Cloneable#rebuildMetamodel()
+#: java.lang.Comparable#rebuildMetamodel()
+#: java.lang.Iterable#rebuildMetamodel()
+#: java.lang.Object#rebuildMetamodel()
+#: java.lang.reflect.AnnotatedElement#rebuildMetamodel()
+#: java.lang.reflect.GenericDeclaration#rebuildMetamodel()
+#: java.lang.reflect.Type#rebuildMetamodel()
+#: java.util.Collection#rebuildMetamodel()
+#: java.util.List#rebuildMetamodel()
+#: java.util.Set#rebuildMetamodel()
+#: java.util.SortedSet#rebuildMetamodel()
+#: javax.jdo.listener.InstanceLifecycleListener#rebuildMetamodel()
+#: javax.jdo.listener.LoadLifecycleListener#rebuildMetamodel()
+#: javax.jdo.listener.StoreLifecycleListener#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractContainedObject#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractDomainObject#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractFactoryAndRepository#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractService#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractSubscriber#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractViewModel#rebuildMetamodel()
+#: org.apache.isis.applib.ViewModel#rebuildMetamodel()
+#: org.apache.isis.applib.conmap.ContentMappingService#rebuildMetamodel()
+#: org.apache.isis.applib.fixtures.InstallableFixture#rebuildMetamodel()
+#: org.apache.isis.applib.fixturescripts.FixtureResult#rebuildMetamodel()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#rebuildMetamodel()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#rebuildMetamodel()
+#: org.apache.isis.applib.services.HasTransactionId#rebuildMetamodel()
+#: org.apache.isis.applib.services.HasUsername#rebuildMetamodel()
+#: org.apache.isis.applib.services.WithTransactionScope#rebuildMetamodel()
+#: org.apache.isis.applib.services.appfeat.ApplicationFeatureRepository#rebuildMetamodel()
+#: org.apache.isis.applib.services.audit.AuditerService#rebuildMetamodel()
+#: org.apache.isis.applib.services.background.BackgroundCommandService#rebuildMetamodel()
+#: org.apache.isis.applib.services.background.BackgroundCommandService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.background.BackgroundService#rebuildMetamodel()
+#: org.apache.isis.applib.services.background.BackgroundService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.bookmark.BookmarkService#rebuildMetamodel()
+#: org.apache.isis.applib.services.bookmark.BookmarkService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService#rebuildMetamodel()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.command.Command#rebuildMetamodel()
+#: org.apache.isis.applib.services.command.Command2#rebuildMetamodel()
+#: org.apache.isis.applib.services.command.Command3#rebuildMetamodel()
+#: org.apache.isis.applib.services.command.spi.CommandService#rebuildMetamodel()
+#: org.apache.isis.applib.services.config.ConfigurationProperty#rebuildMetamodel()
+#: org.apache.isis.applib.services.config.ConfigurationService#rebuildMetamodel()
+#: org.apache.isis.applib.services.email.EmailService#rebuildMetamodel()
+#: org.apache.isis.applib.services.eventbus.EventBusService#rebuildMetamodel()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer#rebuildMetamodel()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer2#rebuildMetamodel()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite#rebuildMetamodel()
+#: org.apache.isis.applib.services.factory.FactoryService#rebuildMetamodel()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsSpecificationProvider#rebuildMetamodel()
+#: org.apache.isis.applib.services.grid.GridLoaderService#rebuildMetamodel()
+#: org.apache.isis.applib.services.grid.GridService#rebuildMetamodel()
+#: org.apache.isis.applib.services.grid.GridSystemService#rebuildMetamodel()
+#: org.apache.isis.applib.services.homepage.HomePageProviderService#rebuildMetamodel()
+#: org.apache.isis.applib.services.i18n.TranslationService#rebuildMetamodel()
+#: org.apache.isis.applib.services.jaxb.JaxbService#rebuildMetamodel()
+#: org.apache.isis.applib.services.jaxb.JaxbService$Simple#rebuildMetamodel()
+#: org.apache.isis.applib.services.jdosupport.IsisJdoSupport#rebuildMetamodel()
+#: org.apache.isis.applib.services.layout.LayoutService#rebuildMetamodel()
+#: org.apache.isis.applib.services.memento.MementoService#rebuildMetamodel()
+#: org.apache.isis.applib.services.message.MessageService#rebuildMetamodel()
+#: org.apache.isis.applib.services.metamodel.MetaModelService#rebuildMetamodel()
+#: org.apache.isis.applib.services.metamodel.MetaModelService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.metamodel.MetaModelService3#rebuildMetamodel()
+#: org.apache.isis.applib.services.metrics.MetricsService#rebuildMetamodel()
+#: org.apache.isis.applib.services.publish.PublisherService#rebuildMetamodel()
+#: org.apache.isis.applib.services.registry.ServiceRegistry#rebuildMetamodel()
+#: org.apache.isis.applib.services.registry.ServiceRegistry2#rebuildMetamodel()
+#: org.apache.isis.applib.services.repository.RepositoryService#rebuildMetamodel()
+#: org.apache.isis.applib.services.routing.RoutingService#rebuildMetamodel()
+#: org.apache.isis.applib.services.session.SessionLoggingService#rebuildMetamodel()
+#: org.apache.isis.applib.services.sessmgmt.SessionManagementService#rebuildMetamodel()
+#: org.apache.isis.applib.services.sudo.SudoService#rebuildMetamodel()
+#: org.apache.isis.applib.services.sudo.SudoService$Spi#rebuildMetamodel()
+#: org.apache.isis.applib.services.swagger.SwaggerService#rebuildMetamodel()
+#: org.apache.isis.applib.services.tablecol.TableColumnOrderService#rebuildMetamodel()
+#: org.apache.isis.applib.services.title.TitleService#rebuildMetamodel()
+#: org.apache.isis.applib.services.urlencoding.UrlEncodingService#rebuildMetamodel()
+#: org.apache.isis.applib.services.user.UserService#rebuildMetamodel()
+#: org.apache.isis.applib.services.userreg.EmailNotificationService#rebuildMetamodel()
+#: org.apache.isis.applib.services.userreg.UserRegistrationService#rebuildMetamodel()
+#: org.apache.isis.applib.services.wrapper.WrapperFactory#rebuildMetamodel()
+#: org.apache.isis.applib.services.xactn.TransactionService#rebuildMetamodel()
+#: org.apache.isis.applib.services.xactn.TransactionService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotService#rebuildMetamodel()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotServiceAbstract#rebuildMetamodel()
+#: org.apache.isis.core.commons.authentication.AuthenticationSessionProvider#rebuildMetamodel()
+#: org.apache.isis.core.commons.components.ApplicationScopedComponent#rebuildMetamodel()
+#: org.apache.isis.core.commons.components.Component#rebuildMetamodel()
+#: org.apache.isis.core.commons.config.IsisConfiguration#rebuildMetamodel()
+#: org.apache.isis.core.commons.config.IsisConfigurationDefault#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManager#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManagerBase#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.deployment.DeploymentCategoryProvider#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelRefiner#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelValidatorRefiner#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.ServicesInjectorAware#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeature#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.command.CommandDtoServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.configinternal.ConfigurationServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.grid.GridSystemServiceAbstract#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.ixn.InteractionDtoServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.persistsession.PersistenceSessionServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.publishing.PublishingServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.spec.FreeStandingList#rebuildMetamodel()
+#: org.apache.isis.core.runtime.authentication.AuthenticationManager#rebuildMetamodel()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManager#rebuildMetamodel()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManagerAbstract#rebuildMetamodel()
+#: org.apache.isis.core.runtime.persistence.FixturesInstalledFlag#rebuildMetamodel()
+#: org.apache.isis.core.runtime.services.eventbus.EventBusServiceDefault#rebuildMetamodel()
+#: org.apache.isis.core.runtime.system.transaction.TransactionalClosure#rebuildMetamodel()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#rebuildMetamodel()
+#: org.apache.isis.objectstore.jdo.applib.service.support.IsisJdoSupport#rebuildMetamodel()
+#: org.apache.isis.schema.cmd.v1.CommandDto#rebuildMetamodel()
+#: org.apache.isis.schema.cmd.v1.MemberDto#rebuildMetamodel()
+#: org.apache.isis.schema.common.v1.OidDto#rebuildMetamodel()
+#: org.apache.isis.schema.common.v1.OidsDto#rebuildMetamodel()
+#: org.incode.module.alias.dom.impl.Alias#rebuildMetamodel()
+#: org.incode.module.base.dom.with.WithNameGetter#rebuildMetamodel()
+#: org.incode.module.base.dom.with.WithReferenceGetter#rebuildMetamodel()
+#: org.incode.module.classification.dom.impl.applicability.Applicability#rebuildMetamodel()
+#: org.incode.module.classification.dom.impl.category.Category#rebuildMetamodel()
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#rebuildMetamodel()
+#: org.incode.module.classification.dom.impl.classification.Classification#rebuildMetamodel()
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#rebuildMetamodel()
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#rebuildMetamodel()
+#: org.incode.module.commchannel.dom.impl.ownerlink.CommunicationChannelOwnerLink#rebuildMetamodel()
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#rebuildMetamodel()
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwner#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLink#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.comms.CommChannelRole#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.comms.Communication#rebuildMetamodel()
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#rebuildMetamodel()
+#: org.incode.module.communications.dom.spi.CurrentUserEmailAddressProvider#rebuildMetamodel()
+#: org.incode.module.country.dom.impl.Country#rebuildMetamodel()
+#: org.incode.module.country.dom.impl.State#rebuildMetamodel()
+#: org.incode.module.docfragment.dom.impl.DocFragment#rebuildMetamodel()
+#: org.incode.module.docrendering.stringinterpolator.dom.spi.UrlDownloaderService#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.applicability.Applicability#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.docs.Document#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.paperclips.PaperclipRepository$SubtypeProvider#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.paperclips.PaperclipRepository$SubtypeProviderAbstract#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#rebuildMetamodel()
+#: org.incode.module.document.dom.impl.types.DocumentType#rebuildMetamodel()
+#: org.incode.module.document.dom.mixins.T_documents#rebuildMetamodel()
+#: org.incode.module.document.dom.services.ClassNameViewModel#rebuildMetamodel()
+#: org.incode.module.document.dom.spi.SupportingDocumentsEvaluator#rebuildMetamodel()
+#: org.incode.module.document.dom.spi.UrlDownloadService#rebuildMetamodel()
+#: org.incode.module.note.dom.impl.notablelink.NotableLink#rebuildMetamodel()
+#: org.incode.module.note.dom.impl.note.Note#rebuildMetamodel()
+#: org.isisaddons.module.audit.dom.AuditEntry#rebuildMetamodel()
+#: org.isisaddons.module.command.dom.CommandJdo#rebuildMetamodel()
+#: org.isisaddons.module.command.dom.T_backgroundCommands#rebuildMetamodel()
+#: org.isisaddons.module.poly.dom.PolymorphicAssociationLink#rebuildMetamodel()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#rebuildMetamodel()
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#rebuildMetamodel()
+#: org.isisaddons.module.publishmq.dom.servicespi.InteractionExecutionRepository#rebuildMetamodel()
+#: org.isisaddons.module.publishmq.dom.servicespi.PublishedObjectsRepository#rebuildMetamodel()
+#: org.isisaddons.module.security.app.feature.ApplicationClass#rebuildMetamodel()
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#rebuildMetamodel()
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#rebuildMetamodel()
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#rebuildMetamodel()
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#rebuildMetamodel()
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#rebuildMetamodel()
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#rebuildMetamodel()
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel#rebuildMetamodel()
+#: org.isisaddons.module.security.dom.password.PasswordEncryptionService#rebuildMetamodel()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#rebuildMetamodel()
+#: org.isisaddons.module.security.dom.permission.PermissionsEvaluationService#rebuildMetamodel()
+#: org.isisaddons.module.security.dom.permission.PermissionsEvaluationServiceAbstract#rebuildMetamodel()
+#: org.isisaddons.module.security.dom.role.ApplicationRole#rebuildMetamodel()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#rebuildMetamodel()
+#: org.isisaddons.module.security.dom.tenancy.HasAtPath#rebuildMetamodel()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#rebuildMetamodel()
+#: org.isisaddons.module.security.userreg.SecurityModuleAppUserRegistrationServiceAbstract#rebuildMetamodel()
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.ApplicationSetting#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.ApplicationSettingsService#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.ApplicationSettingsServiceRW#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.Setting#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.SettingAbstract#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.UserSetting#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.UserSettingsService#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.UserSettingsServiceRW#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#rebuildMetamodel()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#rebuildMetamodel()
+#: org.isisaddons.module.tags.dom.Tag#rebuildMetamodel()
+#: org.isisaddons.module.tags.dom.WithNameGetter#rebuildMetamodel()
+#: org.isisaddons.module.togglz.glue.spi.FeatureStateRepository#rebuildMetamodel()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.CalendarEventable#rebuildMetamodel()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.Calendarable#rebuildMetamodel()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.CalendarableDereferencingService#rebuildMetamodel()
+#: org.isisaddons.wicket.gmap3.cpt.applib.Locatable#rebuildMetamodel()
+#: org.isisaddons.wicket.gmap3.cpt.applib.LocationDereferencingService#rebuildMetamodel()
+msgid "Rebuild Metamodel"
+msgstr ""
+
+
+#: [B#recentAuditEntries()
+#: domainapp.modules.simple.dom.SimpleObject#recentAuditEntries()
+#: java.io.Serializable#recentAuditEntries()
+#: java.lang.Class#recentAuditEntries()
+#: java.lang.Cloneable#recentAuditEntries()
+#: java.lang.Comparable#recentAuditEntries()
+#: java.lang.Iterable#recentAuditEntries()
+#: java.lang.Object#recentAuditEntries()
+#: java.lang.reflect.AnnotatedElement#recentAuditEntries()
+#: java.lang.reflect.GenericDeclaration#recentAuditEntries()
+#: java.lang.reflect.Type#recentAuditEntries()
+#: java.util.Collection#recentAuditEntries()
+#: java.util.List#recentAuditEntries()
+#: java.util.Set#recentAuditEntries()
+#: java.util.SortedSet#recentAuditEntries()
+#: javax.jdo.listener.InstanceLifecycleListener#recentAuditEntries()
+#: javax.jdo.listener.LoadLifecycleListener#recentAuditEntries()
+#: javax.jdo.listener.StoreLifecycleListener#recentAuditEntries()
+#: org.apache.isis.applib.AbstractContainedObject#recentAuditEntries()
+#: org.apache.isis.applib.AbstractDomainObject#recentAuditEntries()
+#: org.apache.isis.applib.AbstractFactoryAndRepository#recentAuditEntries()
+#: org.apache.isis.applib.AbstractService#recentAuditEntries()
+#: org.apache.isis.applib.AbstractSubscriber#recentAuditEntries()
+#: org.apache.isis.applib.AbstractViewModel#recentAuditEntries()
+#: org.apache.isis.applib.ViewModel#recentAuditEntries()
+#: org.apache.isis.applib.conmap.ContentMappingService#recentAuditEntries()
+#: org.apache.isis.applib.fixtures.InstallableFixture#recentAuditEntries()
+#: org.apache.isis.applib.fixturescripts.FixtureResult#recentAuditEntries()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#recentAuditEntries()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#recentAuditEntries()
+#: org.apache.isis.applib.services.HasTransactionId#recentAuditEntries()
+#: org.apache.isis.applib.services.HasUsername#recentAuditEntries()
+#: org.apache.isis.applib.services.WithTransactionScope#recentAuditEntries()
+#: org.apache.isis.applib.services.appfeat.ApplicationFeatureRepository#recentAuditEntries()
+#: org.apache.isis.applib.services.audit.AuditerService#recentAuditEntries()
+#: org.apache.isis.applib.services.background.BackgroundCommandService#recentAuditEntries()
+#: org.apache.isis.applib.services.background.BackgroundCommandService2#recentAuditEntries()
+#: org.apache.isis.applib.services.background.BackgroundService#recentAuditEntries()
+#: org.apache.isis.applib.services.background.BackgroundService2#recentAuditEntries()
+#: org.apache.isis.applib.services.bookmark.BookmarkService#recentAuditEntries()
+#: org.apache.isis.applib.services.bookmark.BookmarkService2#recentAuditEntries()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService#recentAuditEntries()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService2#recentAuditEntries()
+#: org.apache.isis.applib.services.command.Command#recentAuditEntries()
+#: org.apache.isis.applib.services.command.Command2#recentAuditEntries()
+#: org.apache.isis.applib.services.command.Command3#recentAuditEntries()
+#: org.apache.isis.applib.services.command.spi.CommandService#recentAuditEntries()
+#: org.apache.isis.applib.services.config.ConfigurationProperty#recentAuditEntries()
+#: org.apache.isis.applib.services.config.ConfigurationService#recentAuditEntries()
+#: org.apache.isis.applib.services.email.EmailService#recentAuditEntries()
+#: org.apache.isis.applib.services.eventbus.EventBusService#recentAuditEntries()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer#recentAuditEntries()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer2#recentAuditEntries()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite#recentAuditEntries()
+#: org.apache.isis.applib.services.factory.FactoryService#recentAuditEntries()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsSpecificationProvider#recentAuditEntries()
+#: org.apache.isis.applib.services.grid.GridLoaderService#recentAuditEntries()
+#: org.apache.isis.applib.services.grid.GridService#recentAuditEntries()
+#: org.apache.isis.applib.services.grid.GridSystemService#recentAuditEntries()
+#: org.apache.isis.applib.services.homepage.HomePageProviderService#recentAuditEntries()
+#: org.apache.isis.applib.services.i18n.TranslationService#recentAuditEntries()
+#: org.apache.isis.applib.services.jaxb.JaxbService#recentAuditEntries()
+#: org.apache.isis.applib.services.jaxb.JaxbService$Simple#recentAuditEntries()
+#: org.apache.isis.applib.services.jdosupport.IsisJdoSupport#recentAuditEntries()
+#: org.apache.isis.applib.services.layout.LayoutService#recentAuditEntries()
+#: org.apache.isis.applib.services.memento.MementoService#recentAuditEntries()
+#: org.apache.isis.applib.services.message.MessageService#recentAuditEntries()
+#: org.apache.isis.applib.services.metamodel.MetaModelService#recentAuditEntries()
+#: org.apache.isis.applib.services.metamodel.MetaModelService2#recentAuditEntries()
+#: org.apache.isis.applib.services.metamodel.MetaModelService3#recentAuditEntries()
+#: org.apache.isis.applib.services.metrics.MetricsService#recentAuditEntries()
+#: org.apache.isis.applib.services.publish.PublisherService#recentAuditEntries()
+#: org.apache.isis.applib.services.registry.ServiceRegistry#recentAuditEntries()
+#: org.apache.isis.applib.services.registry.ServiceRegistry2#recentAuditEntries()
+#: org.apache.isis.applib.services.repository.RepositoryService#recentAuditEntries()
+#: org.apache.isis.applib.services.routing.RoutingService#recentAuditEntries()
+#: org.apache.isis.applib.services.session.SessionLoggingService#recentAuditEntries()
+#: org.apache.isis.applib.services.sessmgmt.SessionManagementService#recentAuditEntries()
+#: org.apache.isis.applib.services.sudo.SudoService#recentAuditEntries()
+#: org.apache.isis.applib.services.sudo.SudoService$Spi#recentAuditEntries()
+#: org.apache.isis.applib.services.swagger.SwaggerService#recentAuditEntries()
+#: org.apache.isis.applib.services.tablecol.TableColumnOrderService#recentAuditEntries()
+#: org.apache.isis.applib.services.title.TitleService#recentAuditEntries()
+#: org.apache.isis.applib.services.urlencoding.UrlEncodingService#recentAuditEntries()
+#: org.apache.isis.applib.services.user.UserService#recentAuditEntries()
+#: org.apache.isis.applib.services.userreg.EmailNotificationService#recentAuditEntries()
+#: org.apache.isis.applib.services.userreg.UserRegistrationService#recentAuditEntries()
+#: org.apache.isis.applib.services.wrapper.WrapperFactory#recentAuditEntries()
+#: org.apache.isis.applib.services.xactn.TransactionService#recentAuditEntries()
+#: org.apache.isis.applib.services.xactn.TransactionService2#recentAuditEntries()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotService#recentAuditEntries()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotServiceAbstract#recentAuditEntries()
+#: org.apache.isis.core.commons.authentication.AuthenticationSessionProvider#recentAuditEntries()
+#: org.apache.isis.core.commons.components.ApplicationScopedComponent#recentAuditEntries()
+#: org.apache.isis.core.commons.components.Component#recentAuditEntries()
+#: org.apache.isis.core.commons.config.IsisConfiguration#recentAuditEntries()
+#: org.apache.isis.core.commons.config.IsisConfigurationDefault#recentAuditEntries()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManager#recentAuditEntries()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManagerBase#recentAuditEntries()
+#: org.apache.isis.core.metamodel.deployment.DeploymentCategoryProvider#recentAuditEntries()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelRefiner#recentAuditEntries()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelValidatorRefiner#recentAuditEntries()
+#: org.apache.isis.core.metamodel.services.ServicesInjectorAware#recentAuditEntries()
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeature#recentAuditEntries()
+#: org.apache.isis.core.metamodel.services.command.CommandDtoServiceInternal#recentAuditEntries()
+#: org.apache.isis.core.metamodel.services.configinternal.ConfigurationServiceInternal#recentAuditEntries()
+#: org.apache.isis.core.metamodel.services.grid.GridSystemServiceAbstract#recentAuditEntries()
+#: org.apache.isis.core.metamodel.services.ixn.InteractionDtoServiceInternal#recentAuditEntries()
+#: org.apache.isis.core.metamodel.services.persistsession.PersistenceSessionServiceInternal#recentAuditEntries()
+#: org.apache.isis.core.metamodel.services.publishing.PublishingServiceInternal#recentAuditEntries()
+#: org.apache.isis.core.metamodel.spec.FreeStandingList#recentAuditEntries()
+#: org.apache.isis.core.runtime.authentication.AuthenticationManager#recentAuditEntries()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManager#recentAuditEntries()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManagerAbstract#recentAuditEntries()
+#: org.apache.isis.core.runtime.persistence.FixturesInstalledFlag#recentAuditEntries()
+#: org.apache.isis.core.runtime.services.eventbus.EventBusServiceDefault#recentAuditEntries()
+#: org.apache.isis.core.runtime.system.transaction.TransactionalClosure#recentAuditEntries()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#recentAuditEntries()
+#: org.apache.isis.objectstore.jdo.applib.service.support.IsisJdoSupport#recentAuditEntries()
+#: org.apache.isis.schema.cmd.v1.CommandDto#recentAuditEntries()
+#: org.apache.isis.schema.cmd.v1.MemberDto#recentAuditEntries()
+#: org.apache.isis.schema.common.v1.OidDto#recentAuditEntries()
+#: org.apache.isis.schema.common.v1.OidsDto#recentAuditEntries()
+#: org.incode.module.alias.dom.impl.Alias#recentAuditEntries()
+#: org.incode.module.base.dom.with.WithNameGetter#recentAuditEntries()
+#: org.incode.module.base.dom.with.WithReferenceGetter#recentAuditEntries()
+#: org.incode.module.classification.dom.impl.applicability.Applicability#recentAuditEntries()
+#: org.incode.module.classification.dom.impl.category.Category#recentAuditEntries()
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#recentAuditEntries()
+#: org.incode.module.classification.dom.impl.classification.Classification#recentAuditEntries()
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#recentAuditEntries()
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#recentAuditEntries()
+#: org.incode.module.commchannel.dom.impl.ownerlink.CommunicationChannelOwnerLink#recentAuditEntries()
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#recentAuditEntries()
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwner#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannelOwnerLink#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.comms.CommChannelRole#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.comms.Communication#recentAuditEntries()
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#recentAuditEntries()
+#: org.incode.module.communications.dom.spi.CurrentUserEmailAddressProvider#recentAuditEntries()
+#: org.incode.module.country.dom.impl.Country#recentAuditEntries()
+#: org.incode.module.country.dom.impl.State#recentAuditEntries()
+#: org.incode.module.docfragment.dom.impl.DocFragment#recentAuditEntries()
+#: org.incode.module.docrendering.stringinterpolator.dom.spi.UrlDownloaderService#recentAuditEntries()
+#: org.incode.module.document.dom.impl.applicability.Applicability#recentAuditEntries()
+#: org.incode.module.document.dom.impl.docs.Document#recentAuditEntries()
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#recentAuditEntries()
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#recentAuditEntries()
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#recentAuditEntries()
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#recentAuditEntries()
+#: org.incode.module.document.dom.impl.paperclips.PaperclipRepository$SubtypeProvider#recentAuditEntries()
+#: org.incode.module.document.dom.impl.paperclips.PaperclipRepository$SubtypeProviderAbstract#recentAuditEntries()
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#recentAuditEntries()
+#: org.incode.module.document.dom.impl.types.DocumentType#recentAuditEntries()
+#: org.incode.module.document.dom.mixins.T_documents#recentAuditEntries()
+#: org.incode.module.document.dom.services.ClassNameViewModel#recentAuditEntries()
+#: org.incode.module.document.dom.spi.SupportingDocumentsEvaluator#recentAuditEntries()
+#: org.incode.module.document.dom.spi.UrlDownloadService#recentAuditEntries()
+#: org.incode.module.note.dom.impl.notablelink.NotableLink#recentAuditEntries()
+#: org.incode.module.note.dom.impl.note.Note#recentAuditEntries()
+#: org.isisaddons.module.audit.dom.AuditEntry#recentAuditEntries()
+#: org.isisaddons.module.command.dom.CommandJdo#recentAuditEntries()
+#: org.isisaddons.module.command.dom.T_backgroundCommands#recentAuditEntries()
+#: org.isisaddons.module.poly.dom.PolymorphicAssociationLink#recentAuditEntries()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#recentAuditEntries()
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#recentAuditEntries()
+#: org.isisaddons.module.publishmq.dom.servicespi.InteractionExecutionRepository#recentAuditEntries()
+#: org.isisaddons.module.publishmq.dom.servicespi.PublishedObjectsRepository#recentAuditEntries()
+#: org.isisaddons.module.security.app.feature.ApplicationClass#recentAuditEntries()
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#recentAuditEntries()
+#: org.isisaddons.module.security.app.feature.ApplicationClassCollection#recentAuditEntries()
+#: org.isisaddons.module.security.app.feature.ApplicationClassMember#recentAuditEntries()
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#recentAuditEntries()
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModel#recentAuditEntries()
+#: org.isisaddons.module.security.app.feature.ApplicationPackage#recentAuditEntries()
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel#recentAuditEntries()
+#: org.isisaddons.module.security.dom.password.PasswordEncryptionService#recentAuditEntries()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#recentAuditEntries()
+#: org.isisaddons.module.security.dom.permission.PermissionsEvaluationService#recentAuditEntries()
+#: org.isisaddons.module.security.dom.permission.PermissionsEvaluationServiceAbstract#recentAuditEntries()
+#: org.isisaddons.module.security.dom.role.ApplicationRole#recentAuditEntries()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#recentAuditEntries()
+#: org.isisaddons.module.security.dom.tenancy.HasAtPath#recentAuditEntries()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#recentAuditEntries()
+#: org.isisaddons.module.security.userreg.SecurityModuleAppUserRegistrationServiceAbstract#recentAuditEntries()
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.ApplicationSetting#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.ApplicationSettingsService#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.ApplicationSettingsServiceRW#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.Setting#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.SettingAbstract#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.UserSetting#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.UserSettingsService#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.UserSettingsServiceRW#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#recentAuditEntries()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#recentAuditEntries()
+#: org.isisaddons.module.tags.dom.Tag#recentAuditEntries()
+#: org.isisaddons.module.tags.dom.WithNameGetter#recentAuditEntries()
+#: org.isisaddons.module.togglz.glue.spi.FeatureStateRepository#recentAuditEntries()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.CalendarEventable#recentAuditEntries()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.Calendarable#recentAuditEntries()
+#: org.isisaddons.wicket.fullcalendar2.cpt.applib.CalendarableDereferencingService#recentAuditEntries()
+#: org.isisaddons.wicket.gmap3.cpt.applib.Locatable#recentAuditEntries()
+#: org.isisaddons.wicket.gmap3.cpt.applib.LocationDereferencingService#recentAuditEntries()
+msgid "Recent Audit Entries"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.HasUsername#recentCommandsByUser()
+#: org.isisaddons.module.audit.dom.AuditEntry#recentCommandsByUser()
+#: org.isisaddons.module.command.dom.CommandJdo#recentCommandsByUser()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#recentCommandsByUser()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#recentCommandsByUser()
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#recentCommandsByUser()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#recentCommandsByUser()
+msgid "Recent Commands By User"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.HasUsername#recentEventsPublishedByUser()
+#: org.isisaddons.module.audit.dom.AuditEntry#recentEventsPublishedByUser()
+#: org.isisaddons.module.command.dom.CommandJdo#recentEventsPublishedByUser()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#recentEventsPublishedByUser()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#recentEventsPublishedByUser()
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#recentEventsPublishedByUser()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#recentEventsPublishedByUser()
+msgid "Recent Events Published By User"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.HasUsername#recentSessionsForUser()
+#: org.isisaddons.module.audit.dom.AuditEntry#recentSessionsForUser()
+#: org.isisaddons.module.command.dom.CommandJdo#recentSessionsForUser()
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#recentSessionsForUser()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#recentSessionsForUser()
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#recentSessionsForUser()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#recentSessionsForUser()
+msgid "Recent Sessions For User"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#recreateObjectsAndReturnFirst()
+msgid "Recreate Objects And Return First"
+msgstr ""
+
+
+#: org.incode.module.alias.dom.impl.Alias#reference
+#: org.incode.module.classification.dom.impl.category.Category#addChild(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.incode.module.classification.dom.impl.category.Category#reference
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#addChild(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#reference
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#reference
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#reference
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#reference
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#reference
+#: org.incode.module.country.dom.impl.Country#reference
+#: org.incode.module.country.dom.impl.State#reference
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#reference
+#: org.incode.module.document.dom.impl.types.DocumentType#reference
+msgid "Reference"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.Category#refreshDerivedValues()
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#refreshDerivedValues()
+msgid "Refresh Derived Values"
+msgstr ""
+
+
+#: org.incode.module.alias.dom.impl.Alias#remove()
+#: org.incode.module.classification.dom.impl.category.Category#removeChild()
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#removeChild()
+#: org.incode.module.classification.dom.impl.classification.Classification#remove()
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#remove0()
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#remove1()
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel_remove0#$$()
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel_remove1#$$()
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#remove0()
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#remove1()
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#remove0()
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#remove1()
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#remove0()
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#remove1()
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#remove()
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#remove()
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#remove()
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#remove()
+#: org.incode.module.note.dom.impl.note.Note#remove()
+#: org.isisaddons.module.security.dom.role.ApplicationRole#removeUser()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#removeUser()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#removeRole()
+msgid "Remove"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#removeAttachment()
+msgid "Remove Attachment"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#removeChild()
+msgid "Remove Child"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole#removePermission()
+msgid "Remove Permission"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#render()
+msgid "Render"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentState$2#RENDERED
+msgid "Rendered"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#renderedAt
+msgid "Rendered At"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy#rendererClassName
+msgid "Renderer Class Name"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate$_applicable#$$(java.lang.String,org.incode.module.document.dom.services.ClassNameViewModel,org.incode.module.document.dom.services.ClassNameViewModel)
+msgid "Renderer Model Factory"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability#rendererModelFactoryClassName
+msgid "Renderer Model Factory Class Name"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.rendering.RenderingStrategy_changeRenderer#$$(org.incode.module.document.dom.services.ClassNameViewModel)
+msgid "Renderer class name"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#resetPassword(org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password)
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#newLocalUser(java.lang.String,org.apache.isis.applib.value.Password,org.apache.isis.applib.value.Password,org.isisaddons.module.security.dom.role.ApplicationRole,java.lang.Boolean,java.lang.String)
+msgid "Repeat password"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel_remove1#$$(org.incode.module.commchannel.dom.impl.channel.CommunicationChannel)
+msgid "Replace with"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#republish()
+msgid "Republish"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#resetPassword()
+msgid "Reset Password"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry$CausedBy2#RESTART
+msgid "Restart"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureResult#object
+#: org.isisaddons.module.command.dom.CommandJdo#resultSummary
+msgid "Result"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#resultStr
+msgid "Result Bookmark"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureResult#className
+msgid "Result class"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureResult#key
+msgid "Result key"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "ResultStr"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "Results"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#retry()
+msgid "Retry"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClassAction#returnType
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#returnType
+msgid "Return Type"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#role
+msgid "Role"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.paperclips.PaperclipForCommunication#roleName
+#: org.incode.module.document.dom.impl.docs.paperclips.PaperclipForDocument#roleName
+#: org.incode.module.document.dom.impl.paperclips.Paperclip#roleName
+msgid "Role Name"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document_attachSupportingPdf#exec(org.incode.module.document.dom.impl.types.DocumentType,org.apache.isis.applib.value.Blob,java.lang.String,java.lang.String)
+msgid "Role name"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#roles
+msgid "Roles"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#rule
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addAction(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addClass(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addCollection(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addPackage(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#addProperty(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.isisaddons.module.security.dom.permission.ApplicationPermissionMode,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.security.dom.role.ApplicationRole#removePermission(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureType,java.lang.String)
+msgid "Rule"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScript#runFixtureScript()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#runFixtureScriptWithAutoComplete()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#runFixtureScript()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScript()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScriptWithAutoComplete()
+msgid "Run Fixture Script"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#SAFE
+msgid "Safe"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#SAFE_AND_REQUEST_CACHEABLE
+msgid "Safe And Request Cacheable"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.BackgroundCommandServiceJdo#schedule()
+msgid "Schedule"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScript
+msgid "Script"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#runFixtureScript(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScript(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScriptWithAutoComplete(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+msgid "Script-specific parameters (if any).  The format depends on the script implementation (eg key=value, CSV, JSON, XML etc)"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRoleMenu#findRoles(java.lang.String)
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu#findUsers(java.lang.String)
+msgid "Search"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationFeatureViewModels
+#: org.isisaddons.module.security.app.user.MeService
+#: org.isisaddons.module.security.dom.permission.ApplicationPermissionMenu
+#: org.isisaddons.module.security.dom.role.ApplicationRoleMenu
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu
+#: org.isisaddons.module.security.dom.user.ApplicationUserMenu
+msgid "Security"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.Communication#sendByEmail()
+#: org.incode.module.document.dom.impl.docs.Document#sendByEmail()
+msgid "Send By Email"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#sendByPost()
+msgid "Send By Post"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.CommunicationState#SENT
+msgid "Sent"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.Communication#sentAt
+msgid "Sent At"
+msgstr ""
+
+
+#: org.isisaddons.module.audit.dom.AuditEntry#sequence
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#sequence
+msgid "Sequence"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#serializedForm
+msgid "Serialized Form"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry$CausedBy2#SESSION_EXPIRATION
+msgid "Session Expiration"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#sessionId
+msgid "Session Id"
+msgstr ""
+
+
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry
+msgid "Session Log Entry"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu
+#: org.isisaddons.module.settings.dom.UserSettingMenu
+msgid "Settings"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#showException()
+msgid "Show Exception"
+msgstr ""
+
+
+#: org.incode.module.document.dom.services.ClassNameViewModel#simpleClassName
+msgid "Simple Class Name"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObjectMenu
+msgid "Simple Objects"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#sort
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#sort
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#sort
+msgid "Sort"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#startedAt
+msgid "Started At"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#state
+#: org.incode.module.communications.dom.impl.comms.Communication#state
+#: org.incode.module.document.dom.impl.docs.Document#state
+msgid "State"
+msgstr ""
+
+
+#: org.incode.module.country.dom.impl.Country_states#states()
+msgid "States"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#status
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+#: org.isisaddons.module.security.dom.user.ApplicationUser#status
+msgid "Status"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage
+msgid "Status Message"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingType#STRING
+msgid "String"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancyMenu#findTenancies(java.lang.String)
+msgid "String to search for, wildcard (*) can be used"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.Communication#subject
+msgid "Subject"
+msgstr ""
+
+
+#: org.incode.module.document.dom.spi.SupportingDocumentsEvaluator$Evaluation#SUPPORTING
+msgid "Supporting"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#switchToReadingTranslations()
+msgid "Switch To Reading Translations"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#switchToWritingTranslations()
+msgid "Switch To Writing Translations"
+msgstr ""
+
+
+#: org.isisaddons.module.tags.dom.Tag
+msgid "Tagged"
+msgstr ""
+
+
+#: org.isisaddons.module.tags.dom.Tag#taggedIdentifier
+msgid "Tagged Identifier"
+msgstr ""
+
+
+#: org.isisaddons.module.tags.dom.Tag#taggedObjectType
+msgid "Tagged Object Type"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.audit.dom.AuditEntry
+#: org.isisaddons.module.command.dom.CommandJdo
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent
+msgid "Target"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.audit.dom.AuditEntry
+#: org.isisaddons.module.command.dom.CommandJdo
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent
+msgid "TargetStr"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.CommandDto#targets
+msgid "Targets"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.applicability.Applicability#taxonomy
+#: org.incode.module.classification.dom.impl.category.Category#taxonomy
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy#taxonomy
+#: org.incode.module.classification.dom.impl.classification.Classification#taxonomy
+msgid "Taxonomy"
+msgstr ""
+
+
+#: org.incode.module.docfragment.dom.impl.DocFragment#templateText
+msgid "Template Text"
+msgstr ""
+
+
+#: org.incode.module.docfragment.dom.impl.DocFragment#changeTemplateText(java.lang.String)
+msgid "Template text"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.Document#text
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#text
+#: org.incode.module.document.dom.impl.docs.DocumentSort$4#TEXT
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#text
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate_updateNameText#$$(java.lang.String)
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate_updateText#$$(java.lang.String)
+msgid "Text"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#timestamp
+#: org.isisaddons.module.audit.dom.AuditEntry#timestamp
+#: org.isisaddons.module.command.dom.CommandJdo#timestamp
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#timestamp
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#timestamp
+msgid "Timestamp"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "Timings"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#title
+msgid "Title"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.impl.comms.CommChannelRoleType#TO
+#: org.isisaddons.module.audit.dom.AuditingServiceMenu#findAuditEntries(org.joda.time.LocalDate,org.joda.time.LocalDate)
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommands(org.joda.time.LocalDate,org.joda.time.LocalDate)
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishingServiceMenu#findPublishedEvents(org.joda.time.LocalDate,org.joda.time.LocalDate)
+#: org.isisaddons.module.sessionlogger.dom.SessionLoggingServiceMenu#findSessions(java.lang.String,org.joda.time.LocalDate,org.joda.time.LocalDate)
+msgid "To"
+msgstr ""
+
+
+#: org.isisaddons.module.excel.dom.ExcelService#toExcel()
+msgid "To Excel"
+msgstr ""
+
+
+#: org.isisaddons.module.excel.dom.ExcelService#toExcelPivot()
+msgid "To Excel Pivot"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#transactionId
+#: org.apache.isis.schema.cmd.v1.CommandDto#transactionId
+#: org.isisaddons.module.audit.dom.AuditEntry#transactionId
+#: org.isisaddons.module.command.dom.CommandJdo#transactionId
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommandById(java.util.UUID)
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#transactionId
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#transactionId
+msgid "Transaction Id"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.BookmarkObjectState#TRANSIENT
+msgid "Transient"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability$TitleSubscriber#translatableTitleOf()
+msgid "Translatable Title Of"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#type
+#: org.apache.isis.schema.common.v1.OidDto#type
+#: org.incode.module.commchannel.dom.impl.channel.CommunicationChannel#type
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#type
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#type
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber_update#$$(org.incode.module.commchannel.dom.impl.type.CommunicationChannelType,java.lang.String)
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#type
+#: org.incode.module.communications.dom.impl.commchannel.CommunicationChannel#type
+#: org.incode.module.communications.dom.impl.commchannel.EmailAddress#type
+#: org.incode.module.communications.dom.impl.commchannel.PhoneOrFaxNumber#type
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#type
+#: org.incode.module.communications.dom.impl.comms.CommChannelRole#type
+#: org.incode.module.communications.dom.impl.comms.Communication#type
+#: org.incode.module.document.dom.impl.docs.Document#type
+#: org.incode.module.document.dom.impl.docs.DocumentAbstract#type
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#type
+#: org.isisaddons.module.audit.dom.AuditEntry#type
+#: org.isisaddons.module.command.dom.CommandJdo#type
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#type
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#type
+#: org.isisaddons.module.security.dom.role.ApplicationRole#removePermission(org.isisaddons.module.security.dom.permission.ApplicationPermissionRule,org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureType,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#type
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#type
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#type
+msgid "Type"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#typeCopy
+msgid "Type Copy"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.feature.ApplicationClassProperty#typicalLength
+msgid "Typical Length"
+msgstr ""
+
+
+#: org.incode.module.document.dom.spi.SupportingDocumentsEvaluator$Evaluation#UNKNOWN
+msgid "Unknown"
+msgstr ""
+
+
+#: org.incode.module.commchannel.dom.impl.emailaddress.EmailAddress#update()
+#: org.incode.module.commchannel.dom.impl.phoneorfax.PhoneOrFaxNumber#update()
+#: org.incode.module.commchannel.dom.impl.postaladdress.PostalAddress#update()
+#: org.incode.module.communications.dom.impl.commchannel.PostalAddress#updateCountryAndState()
+msgid "Update"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateAccountType()
+msgid "Update Account Type"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsBoolean()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsBoolean()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsBoolean()
+msgid "Update As Boolean"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsInt()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsInt()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsInt()
+msgid "Update As Int"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsLocalDate()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsLocalDate()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsLocalDate()
+msgid "Update As Local Date"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsLong()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsLong()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsLong()
+msgid "Update As Long"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsString()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsString()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsString()
+msgid "Update As String"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateAtPath()
+msgid "Update At Path"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole#updateDescription()
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateDescription()
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateDescription()
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateDescription()
+msgid "Update Description"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateEmailAddress()
+msgid "Update Email Address"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateFaxNumber()
+msgid "Update Fax Number"
+msgstr ""
+
+
+#: domainapp.modules.simple.dom.SimpleObject#updateName()
+#: org.isisaddons.module.security.dom.role.ApplicationRole#updateName()
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#updateName()
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateName()
+msgid "Update Name"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#updateNameText()
+msgid "Update Name Text"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#updateParent()
+msgid "Update Parent"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updatePassword()
+msgid "Update Password"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updatePhoneNumber()
+msgid "Update Phone Number"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#updatePreviewOnly()
+msgid "Update Preview Only"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#updateRole()
+msgid "Update Role"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#updateText()
+msgid "Update Text"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateUsername()
+msgid "Update Username"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#uploadBlob()
+msgid "Upload Blob"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate#uploadClob()
+msgid "Upload Clob"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessage#uri
+msgid "Uri"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.command.Command$Executor#USER
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#user
+#: org.apache.isis.schema.cmd.v1.CommandDto#user
+#: org.isisaddons.module.audit.dom.AuditEntry#user
+#: org.isisaddons.module.command.dom.CommandJdo#user
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent#user
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel#user
+#: org.isisaddons.module.security.dom.user.HasUsername_open
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry#user
+#: org.isisaddons.module.sessionlogger.dom.SessionLogEntry$CausedBy2#USER
+#: org.isisaddons.module.sessionlogger.dom.SessionLoggingServiceMenu#findSessions(java.lang.String,org.joda.time.LocalDate,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#find(java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#listAllFor(java.lang.String)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newBoolean(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newInt(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLocalDate(java.lang.String,java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLong(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newString(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#user
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#find(java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#listAllFor(java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newBoolean(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newInt(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLocalDate(java.lang.String,java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLong(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newString(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+msgid "User"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo
+msgid "User Setting"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser#updateUsername(java.lang.String)
+#: org.isisaddons.module.security.dom.user.ApplicationUser#username
+msgid "Username"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole
+#: org.isisaddons.module.security.dom.role.ApplicationRole#users
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy#users
+msgid "Users"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.config.ConfigurationProperty#value
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newBoolean(java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newInt(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newLocalDate(java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newLong(java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.ApplicationSettingMenu#newString(java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.SettingAbstract#valueAsBoolean
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newBoolean(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newInt(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLocalDate(java.lang.String,java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newLong(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.UserSettingMenu#newString(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsBoolean(java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsInt(java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsLocalDate(org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsLong(java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#updateAsString(java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#valueAsBoolean
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newBoolean(java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newInt(java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newLocalDate(java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newLong(java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingsServiceJdo#newString(java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsBoolean(java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsInt(java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsLocalDate(org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsLong(java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#updateAsString(java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#valueAsBoolean
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsBoolean(java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsInt(java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsLocalDate(org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsLong(java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#updateAsString(java.lang.String)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#valueAsBoolean
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newBoolean(java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newInt(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLocalDate(java.lang.String,java.lang.String,java.lang.String,org.joda.time.LocalDate)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newLong(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+#: org.isisaddons.module.settings.dom.jdo.UserSettingsServiceJdo#newString(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+#: org.isisaddons.module.tags.dom.Tag#value
+msgid "Value"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingAbstract#valueAsInt
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#valueAsInt
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#valueAsInt
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#valueAsInt
+msgid "Value As Int"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingAbstract#valueAsLocalDate
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#valueAsLocalDate
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#valueAsLocalDate
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#valueAsLocalDate
+msgid "Value As Local Date"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingAbstract#valueAsLong
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#valueAsLong
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#valueAsLong
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#valueAsLong
+msgid "Value As Long"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.SettingAbstract#valueAsString
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#valueAsString
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#valueAsString
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#valueAsString
+msgid "Value As String"
+msgstr ""
+
+
+#: org.isisaddons.module.settings.dom.jdo.ApplicationSettingJdo#valueRaw
+#: org.isisaddons.module.settings.dom.jdo.SettingAbstractJdo#valueRaw
+#: org.isisaddons.module.settings.dom.jdo.UserSettingJdo#valueRaw
+msgid "Value Raw"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel#verb
+msgid "Verb"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionLong#prop()
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionTimestamp#prop()
+msgid "Version"
+msgstr ""
+
+
+#: org.isisaddons.module.tags.dom.Tag#versionSequence
+msgid "Version Sequence"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#veto()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermissionRule#VETO
+msgid "Veto"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.BookmarkObjectState#VIEW_MODEL
+msgid "View Model"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.permission.ApplicationPermission#viewing()
+#: org.isisaddons.module.security.dom.permission.ApplicationPermissionMode#VIEWING
+msgid "Viewing"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.user.UserPermissionViewModel#viewingPermission
+msgid "Viewing Permission"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Format#YAML
+msgid "Yaml"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate$_applicable
+#: org.incode.module.document.dom.impl.docs.DocumentTemplate$_notApplicable
+msgid "appliesTo"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "atPath"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability_changeAttachmentAdvisor
+msgid "attachmentAdvisorClassName"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.mixins.Document_sendByEmail#act(org.incode.module.communications.dom.impl.commchannel.EmailAddress,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+msgid "bcc (2):"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.mixins.Document_sendByEmail#act(org.incode.module.communications.dom.impl.commchannel.EmailAddress,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+msgid "bcc:"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.note.Note_changeDate
+msgid "calendarName"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "causedException"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.mixins.Document_sendByEmail#act(org.incode.module.communications.dom.impl.commchannel.EmailAddress,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+msgid "cc (2):"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.mixins.Document_sendByEmail#act(org.incode.module.communications.dom.impl.commchannel.EmailAddress,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+msgid "cc (3):"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.mixins.Document_sendByEmail#act(org.incode.module.communications.dom.impl.commchannel.EmailAddress,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+msgid "cc:"
+msgstr ""
+
+
+#: org.incode.module.classification.dom.impl.category.Category
+#: org.incode.module.classification.dom.impl.category.taxonomy.Taxonomy
+msgid "children"
+msgstr ""
+
+
+#: org.incode.module.note.dom.impl.note.Note_changeNotes
+msgid "content"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.Object_downloadLayoutXml
+#: org.apache.isis.applib.services.layout.Object_rebuildMetamodel
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_downloadJdoMetadata
+msgid "datanucleusIdLong"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole
+msgid "description"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessageService#log(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+msgid "detail"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "emailAddress"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "faxNumber"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "hasPassword"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "knownAs"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessageService#log(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+msgid "message"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.role.ApplicationRole
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy
+msgid "name"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessageService#log(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+msgid "oid"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.tenancy.ApplicationTenancy
+msgid "parent"
+msgstr ""
+
+
+#: org.isisaddons.module.security.app.user.ApplicationUser_filterPermissions
+msgid "permissions"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "phoneNumber"
+msgstr ""
+
+
+#: org.incode.module.document.dom.impl.applicability.Applicability_changeRendererModelFactory
+msgid "rendererModelFactoryClassName"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "roles"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessageService#log(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+msgid "status"
+msgstr ""
+
+
+#: org.incode.module.communications.dom.mixins.Document_sendByEmail#act(org.incode.module.communications.dom.impl.commchannel.EmailAddress,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+#: org.incode.module.communications.dom.mixins.Document_sendByPost#act(org.incode.module.communications.dom.impl.commchannel.PostalAddress)
+msgid "to:"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.HasTransactionId_command
+#: org.isisaddons.module.publishmq.dom.jdo.events.PublishedEvent_republish
+#: org.isisaddons.module.publishmq.dom.jdo.mixins.HasTransactionId_publishedEvent
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessageService#log(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+msgid "transactionId"
+msgstr ""
+
+
+#: org.isisaddons.module.publishmq.dom.jdo.status.StatusMessageService#log(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+msgid "uri"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.HasUsername_recentCommandsByUser
+#: org.isisaddons.module.sessionlogger.dom.HasUsername_recentSessionsForUser
+msgid "user"
+msgstr ""
+
+
+#: org.isisaddons.module.security.dom.user.ApplicationUser
+msgid "username"
+msgstr ""
+
+
+
+
+
+##############################################################################
+# end of .pot file
+##############################################################################
+

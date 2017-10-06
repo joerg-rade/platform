@@ -1,0 +1,4 @@
+activemq-data/*
+/.idea/
+*.iml
+*.log
